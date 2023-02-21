@@ -1,0 +1,32 @@
+[
+    {
+        "kind": "Armor",
+        "part": "Boots",
+        "value": "elite",
+        "name": "Sandstorm Trek",
+        "type": "Scarabshell Boots",
+        "properties": "Defense: 158-178 (varies)(Base Defense 56-65)\nRequired Level: 64\nRequired Strength: 91\nDurability: 14\nAssassin Kick Damage: 60-110\n+140-170% Enhanced Defense (varies)\n+20% Faster Hit Recovery\n+20% Faster Run/Walk\n+ (1 Per Character Level) +1-99 Maximum Stamina (Based On Character Level)\n+10-15 To Strength (varies)\n+10-15 To Vitality (varies)\n50% Slower Stamina Drain\nPoison Resist +40-70% (varies)\nRepairs 1 Durability In 20 Seconds\n(Only Spawns In Patch 1.10 or later)",
+        "item": "Unique",
+        "image": "heavy_boots"
+    },
+    {
+        "kind": "Armor",
+        "part": "Boots",
+        "value": "elite",
+        "name": "Marrowwalk",
+        "type": "Boneweave Boots",
+        "properties": "Defense: 183-204 (varies)(Base Defense: 59-67)\nRequired Level: 66\nRequired Strength: 118\nDurability: 16\nAssassin Kick Damage: 69-118\n+170-200% Enhanced Defense (varies)\n+20% Faster Run/Walk\n+1-2 To Skeleton Mastery (Necromancer Only) (varies)\n+10-20 To Strength (varies)\n+17 To Dexterity\nRegenerate Mana 10%\nHeal Stamina Plus 10%\nHalf Freeze Duration\nLevel 33 Bone Prison (13 Charges)\nLevel 12 Life Tap (10 Charges)\n(Only Spawns In Patch 1.10 or later)",
+        "item": "Unique",
+        "image": "chain_boots"
+    },
+    {
+        "kind": "Armor",
+        "part": "Boots",
+        "value": "elite",
+        "name": "Shadow Dancer",
+        "type": "Myrmidon Greaves",
+        "properties": "Defense: 122-144 (varies)(Base Defense 62-71)\nRequired Level: 71\nRequired Strength: 167\nDurability: 24\nAssassin Kick Damage: 83-149\n+70-100% Enhanced Defense (varies)\n+1-2 To Shadow Disciplines (Assassin Only) (varies)\n+30% Faster Run/Walk\n+30% Faster Hit Recovery\n+15-25 To Dexterity (varies)\nRequirements -20%\n(Ladder Only)\n(Only Spawns In Patch 1.10 or later)",
+        "item": "Unique",
+        "image": "light_plate_boots"
+    }
+]

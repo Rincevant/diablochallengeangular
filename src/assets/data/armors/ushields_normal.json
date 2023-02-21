@@ -1,0 +1,82 @@
+[
+    {
+        "kind": "Armor",
+        "part": "Shields",
+        "value": "normal",
+        "name": "Pelta Lunata",
+        "type": "Buckler",
+        "properties": "Defense: 39 (Base Defense: 4-6)\nRequired Level: 2\nRequired Strength: 12\nDurability: 20-24 (varies)\nChance to Block: Pal: 50%, Ama/Asn/Bar/: 45%, Dru/Nec/Sor: 40%\nPaladin Smite Damage: 1 To 3\n+30-40% Enhanced Defense (varies)\n+30 Defense\n20% Increased Chance Of Blocking\n40% Faster Block Rate\n+10 To Energy\n+10 To Vitality\n+2 To Strength\n(Only Spawns In Patch 1.09 or later)",
+        "item": "Unique",
+        "image":"pelta_lunata"
+    },
+    {
+        "kind": "Armor",
+        "part": "Shields",
+        "value": "normal",
+        "name": "Umbral Disk",
+        "type": "Small Shield",
+        "properties": "Defense: 45-46 (varies)(Base Defense: 8-10)\nRequired Level: 9\nRequired Strength: 22\nDurability: 26-31 (varies)\nChance to Block: Pal: 65%, Ama/Asn/Bar: 60%, Dru/Nec/Sor: 55%\nPaladin Smite Damage: 2 To 3\n+40-50% Enhanced Defense (varies)\n+30 Defense\n30% Increased Chance Of Blocking\nHit Blinds Target*\n+20 To Life\n+10 To Dexterity\n-2 To Light Radius\n+10-15 Durability (varies)\n(Only Spawns In Patch 1.09 or later)",
+        "item": "Unique",
+        "image":"umbral_disk"
+    },
+    {
+        "kind": "Armor",
+        "part": "Shields",
+        "value": "normal",
+        "name": "Stormguild",
+        "type": "Large Shield",
+        "properties": "Defense: 52-54 (varies)(Base Defense: 12-14)\nRequired Level: 13\nRequired Strength: 34\nDurability: 34-39 (varies)\nChance to Block: Pal: 72%, Ama/Asn/Bar: 67%, Dru/Nec/Sor: 62%\nPaladin Smite Damage: 2 To 4\n+50-60% Enhanced Defense (varies)\n+30 Defense\n+30% Increased Chance Of Blocking\nLightning Resist +25%\nAdds 1-6 Lightning Damage\nAttacker Takes Lightning Damage Of 3\nMagic Damage Reduced By 1\n(Only Spawns In Patch 1.09 or later)",
+        "item": "Unique",
+        "image":"stormguild"
+    },
+    {
+        "kind": "Armor",
+        "part": "Shields",
+        "value": "normal",
+        "name": "Steelclash",
+        "type": "Kite Shield",
+        "properties": "Defense: 50-58 (varies)(Base Defense: 16-18)\nRequired Level: 17\nRequired Strength: 47\nDurability: 45-50 (varies)\nChance to Block: Pal: 63%, Ama/Asn/Bar: 58%, Dru/Nec/Sor: 53%\nPaladin Smite Damage: 2 To 5\n+60-100% Enhanced Defense (varies)\n+20 Defense\n25% Increased chance of blocking\n20% Faster Block Rate\nAll Resistances +15\n+1 To Paladin Skill Levels\n+3 To Light Radius\nDamage Reduced By 3\n(Only Spawns In Patch 1.09 or later)",
+        "item": "Unique",
+        "image":"steelclash"
+    },
+    {
+        "kind": "Armor",
+        "part": "Shields",
+        "value": "normal",
+        "name": "Swordback Hold",
+        "type": "Spiked Shield",
+        "properties": "Defense: 43-51 (varies)(Base Defense: 15-25)\nRequired Level: 15\nRequired Strength: 30\nDurability: 40\nChance to Block: Pal: 60%, Ama/Asn/Bar: 55%, Dru/Nec/Sor: 50%\nPaladin Smite Damage: 5 To 9\n+30-60% Enhance Defense (varies)\n+10 Defense\n20% Increased Chance of Blocking\n50% Chance of Open Wounds*\nAttacker Takes Damage of 10\n(Only Spawns In Patch 1.09 or later)",
+        "item": "Unique",
+        "image":"swordback_hold"
+    },
+    {
+        "kind": "Armor",
+        "part": "Shields",
+        "value": "normal",
+        "name": "Bverrit Keep",
+        "type": "Tower Shield",
+        "properties": "Defense: 76-87 (varies)(Base Defense: 22-25)\nRequired Level: 19\nRequired Strength: 75\nDurability: 140-160 (varies)\nChance to Block: Pal: 64%, Ama/Asn/Bar: 59%, Dru/Nec/Sor: 54%\nPaladin Smite Damage: 1 To 5\n+80-120% Defense (varies)\n+30 Defense\n10% Increased Chance Of Blocking\nFire Resist +75%\n+5 To Strength\nMagic Damage Reduced By 5\n(Only Spawns In Patch 1.09 or later)",
+        "item": "Unique",
+        "image":"bverrit_keep"
+    },
+    {
+        "kind": "Armor",
+        "part": "Shields",
+        "value": "normal",
+        "name": "Wall of the Eyeless",
+        "type": "Bone Shield",
+        "properties": "Defense: 50-53 (varies)(Base Defense: 10-30)\nRequired Level: 20\nRequired Strength: 25\nDurability: 40\nChance to Block: Pal: 50%, Ama/Asn/Bar: 45%, Dru/Nec/Sor: 40%\nPaladin Smite Damage: 3 To 6\n+30-40% Enhanced Defense (varies)\n+10 Defense\n+5 to Mana after Each Kill*\n20% Faster Cast Rate\n3% Mana Stolen Per Hit\nPoison Resist +20%\n(Only Spawns In Patch 1.09 or later)",
+        "item": "Unique",
+        "image":"wall_of_the_eyeless"
+    },
+    {
+        "kind": "Armor",
+        "part": "Shields",
+        "value": "normal",
+        "name": "The Ward",
+        "type": "Gothic Shield",
+        "properties": "Defense: 112 (Base Defense: 30-35)\nRequired Level: 26\nRequired Strength: 60\nDurability: 40\nChance to Block: Pal: 56%, Ama/Asn/Bar: 51%, Dru/Nec/Sor: 46%\nPaladin Smite Damage: 2 To 6\n+100% Enhanced Defense\n+40 Defense\n10% Increased chance of blocking\nAll Resistances +30-50 (varies)\nMagic Damage Reduced By 2\n+10 To Strength\n(Only Spawns In Patch 1.09 or later)",
+        "item": "Unique",
+        "image":"the_ward"
+    }
+]

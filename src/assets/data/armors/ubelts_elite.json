@@ -1,0 +1,32 @@
+[
+    {
+        "kind": "Armor",
+        "part": "Belts",
+        "value": "elite",
+        "name": "Arachnid Mesh",
+        "type": "Spiderweb Sash",
+        "properties": "Defense: 119-138 (varies)(Base Defense: 55-62)\nRequired Level: 80\nRequired Strength: 50\nDurability: 12\n16 Boxes\n+90-120% Enhanced Defense (varies)\nSlows Target By 10%\n+1 To All Skills\n+20% Faster Cast Rate\nIncreases Maximum Mana 5%\nLevel 3 Venom (11 Charges)\n(Only Spawns In Patch 1.10 or later)",
+        "item": "Unique",
+        "image": "sash_l"
+    },
+    {
+        "kind": "Armor",
+        "part": "Belts",
+        "value": "elite",
+        "name": "Nosferatu's Coil",
+        "type": "Vampirefang Belt",
+        "properties": "Defense: 56-63 (varies)\nRequired Level: 51\nRequired Strength: 50\nDurability: 14\n16 Boxes\nSlows Target By 10%\n+2 To Mana After Each Kill\n5-7% Life Stolen Per Hit (varies)\n+15 To Strength\n10% Increased Attack Speed\n-3 To Light Radius\n(Only Spawns In Patch 1.10 or later)",
+        "item": "Unique",
+        "image": "light_belt"
+    },
+    {
+        "kind": "Armor",
+        "part": "Belts",
+        "value": "elite",
+        "name": "Verdungo's Hearty Cord",
+        "type": "Mithril Coil",
+        "properties": "Defense: 125-158 (varies)(Defense: 58-65)\nRequired Level: 63\nRequired Strength: 106\nDurability: 16\n16 Boxes\n+90-140% Enhanced Defense (varies)\n10% Faster Hit Recovery\n+30-40 To Vitality (varies)\nReplenish Life +10-13 (varies)\n+100-120 Maximum Stamina (varies)\nDamage Reduced By 10-15% (varies)\n(Only Spawns In Patch 1.10 or later)",
+        "item": "Unique",
+        "image": "belt_m"
+    }
+]

@@ -1,0 +1,98 @@
+[
+    {
+        "kind": "Armor",
+        "part": "Helms",
+        "value": "exceptional",
+        "name": "Peasant Crowned",
+        "type": "War Hat",
+        "properties": "Defense: 108 (Base Defense: 45-53)\nRequired Level: 28\nRequired Strength: 20\nDurability: 12\n+100% Enhanced Defense\n+1 To All Skills\n15% Faster Run/Walk\nReplenish Life +6-12 (varies)\n+20 To Energy\n+20 To Vitality\n(Only Spawns In Patch 1.09 or later)",
+        "item": "Unique",
+        "image":"cap_hat",
+        "nameFR": "Couronne du serf",
+        "propertiesFR": "Niveau requis : 28\nDéfense : 108\nForce requise : 20\nDurabilité : 12\n+100% de défense\n+1 à toutes les compétences\nMarche/course plus rapide de 15%\nRégénération de la vie +6-12\n+20 en énergie\n+20en vitalité"
+    },
+    {
+        "kind": "Armor",
+        "part": "Helms",
+        "value": "exceptional",
+        "name": "Rockstopper",
+        "type": "Sallet",
+        "properties": "Defense: 163-201 (varies)(Base Defense: 52-62)\nRequired Level: 31\nRequired Strength: 43\nDurability: 18\n+160-220% Enhanced Defense (varies)\nDamage Reduced By 10%\n30% Faster Hit Recovery\nCold Resist +20-40% (varies)\nFire Resist +20-50% (varies)\nLightning Resist +20-40% (varies)\n+15 To Vitality\n(Only Spawns In Patch 1.09 or later)",
+        "item": "Unique",
+        "image":"rockstopper",
+        "nameFR": "Bloc-roc",
+        "propertiesFR": "Niveau requis : 31\nDéfense : 163-201\nForce requise : 43\nDurabilité : 18\n+160-220% de défense\nDégâts réduit de 10%\nRécupération plus rapide de 30%\n+20-40 à la résistance au froid\n+20-50 à la résistance au feu\n+20-40 à la résistance à la foudre\n+15 en vitalité"
+    },
+    {
+        "kind": "Armor",
+        "part": "Helms",
+        "value": "exceptional",
+        "name": "Stealskull",
+        "type": "Casque",
+        "properties": "Defense: 219-248 (varies)(Base Defense 63-72)\nRequired Level: 35\nRequired Strength: 59\nDurability: 24\n+200-240% Enhanced Defense (varies)\n10% Increased Attack speed\n10% Faster Hit Recovery\n5% Life Stolen Per Hit\n5% Mana Stolen Per Hit\n30-50% Better Chance of Getting Magic Items (varies)\n(Only Spawns In Patch 1.09 or later)",
+        "item": "Unique",
+        "image":"coif_of_glory",
+        "nameFR": "Chasseur de crâne",
+        "propertiesFR": "Niveau requis : 35\nDéfense : 219-248\nForce requise : 59\nDurabilité : 24\n+200-240% de défense\n+10% à la vitesse d’attaque\n5% de vie volée par coup\n5% de mana volé par coup\n+30-50% de chance d’obtenir des objets magiques\nRécupération plus rapide après un coup +10%"
+    },
+    {
+        "kind": "Armor",
+        "part": "Helms",
+        "value": "exceptional",
+        "name": "Darksight Helm",
+        "type": "Basinet",
+        "properties": "Defense: (77-273) - (86-282) (varies)(Base Defense: 75-84)\nRequired Level: 38\nRequired Strength: 82\nDurability: 30\n+ (2 Per Character Level) 2-198 Defense (Based On Character Level)\n6% Chance To Cast Level 3 Dim Vision When Struck\nLevel 5 Cloak of Shadows (30 Charges)\nCannot Be Frozen\nFire Resist +20-40% (varies)\n5% Mana Stolen Per Hit\n-4 To Light Radius\n(Only Spawns In Patch 1.09 or later)",
+        "item": "Unique",
+        "image":"duskdeep",
+        "nameFR": "Casque des nuits",
+        "propertiesFR": "Niveau requis : 38\nDéfense : 77-273 à 86-282\nForce requise : 82\nDurabilité : 30+(2 par niveau ) 2-198 en défense (en fonction du niveau du perso)\n6% de chance de lancer un sort Vision Diminuée de niveau 3 quand touché\nManteau des Ombres de niveau 5 (30 charges)\nNe peut pas être immobilisé\n+20-40 à la résistance au feu\n5% de Mana volé par coup-4 au cercle de lumière"
+    },
+    {
+        "kind": "Armor",
+        "part": "Helms",
+        "value": "exceptional",
+        "name": "Valkyrie Wing",
+        "type": "Winged Helm",
+        "properties": "Defense: 247-297 (varies)(Base Defense: 85-98)\nRequired Level: 44\nRequired Strength: 115\nDurability: 40\n+150-200% Defense (varies)\n+1-2 To Amazon Skill Levels (varies)\n20% Faster Run/Walk\n20% Faster Hit Recovery\n+2-4 To Mana After Each Kill (varies)\n(Only Spawns In Patch 1.09 or later)",
+        "item": "Unique",
+        "image":"great_helm",
+        "nameFR": "Ailes des walkyries",
+        "propertiesFR": "Niveau requis : 44\nDéfense : 247-297\nForce requise : 115\nDurabilité : 40\n+150-200% de défense\n+1-2 aux compétences de l’Amazone\nVitesse de marche/course +20%\nRécupération plus rapide de 20%\n+2-4 de Mana après chaque mort"
+    },
+    {
+        "kind": "Armor",
+        "part": "Helms",
+        "value": "exceptional",
+        "name": "Blackhorn's Face",
+        "type": "Death Mask",
+        "properties": "Defense: 243-278 (varies)(Base Defense: 54-86)\nRequired Level: 41\nRequired Strength: 55\nDurability: 20\n+180-220% Enhanced Defense (varies)\nSlows Target By 20%\nAttacker Takes Lightning Damage of 25\nPrevent Monster Heal\n+20 Lightning Absorb\nLightning Resist +15%\n(Only Spawns In Patch 1.09 or later)",
+        "item": "Unique",
+        "image":"mask",
+        "nameFR": "Corneface",
+        "propertiesFR": "Niveau requis : 41\nDéfense : 243-278\nForce requise : 55\nDurabilité : 20\n+180-220% de défense\nRalenti la cible de 20%\nAttaquant encaisse des dégâts de 25\nEmpêche le monstre de se soigner\n+20 en absorption de la foudre\n+15 à la résistance à la foudre"
+    },
+    {
+        "kind": "Armor",
+        "part": "Helms",
+        "value": "exceptional",
+        "name": "Crowned of Thieves",
+        "type": "Grand Crowned",
+        "properties": "Defense: 296-342 (varies)(Base Defense: 78-113)\nRequired Level: 49\nRequired Strength: 103\nDurability: 50\n+160-200% Enhanced Defense (varies)\n9-12% Life Stolen Per Hit (varies)\nFire Resist +33%\n+35 To Mana\n+50 To Life\n+25 To Dexterity\n80-100% Extra Gold From Monsters (varies)\n(Only Spawns In Patch 1.09 or later)",
+        "item": "Unique",
+        "image":"crown_of_thieves",
+        "nameFR": "Couronne des voleurs",
+        "propertiesFR": "Niveau requis : 49\nDéfense : 296-342\nForce requise : 103\nDurabilité : 50\n+160-200% de défense\n9-12% de vie volée par coup\n+33 à la résistance au feu\n+35 au Mana\n+50 en vie\n+25 en dextérité\n80-100% d’or en plus sur les monstres"
+    },
+    {
+        "kind": "Armor",
+        "part": "Helms",
+        "value": "exceptional",
+        "name": "Vampire Gaze",
+        "type": "Grim Helm",
+        "properties": "Defense: 252 (Base Defense: 60-125)\nRequired Level: 41\nRequired Strength: 58\nDurability: 40\n+100% Enhanced Defense\nAdds 6-22 Cold Damage - 4 Second Duration\n15% Slower Stamina Drain\n6-8% Life Stolen Per Hit (varies)\n6-8% Mana Stolen Per Hit (varies)\nDamage Reduced By 15-20% (varies)\nMagic Damage Reduced By 10-15 (varies)\n(Only Spawns In Patch 1.09 or later)",
+        "item": "Unique",
+        "image":"wormskull",
+        "nameFR": "Œil vampirique",
+        "propertiesFR": "Niveau requis : 41\nDéfense : 252\nForce requise : 58\nDurabilité : 40\n+100% de défense\n+6-22 de dégâts de froid (durée du froid : 4 secondes)\nL’endurance diminue moins vite de 15%\n6-8% de vie volée par coup\n6-8% de Mana volé par coup\nDégâts réduits de 15-20%\nDégâts magiques réduits de 10-15"
+    }
+]

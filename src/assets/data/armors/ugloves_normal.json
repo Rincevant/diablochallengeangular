@@ -1,0 +1,52 @@
+[
+    {
+        "kind": "Armor",
+        "part": "Gloves",
+        "value": "normal",
+        "name": "The Hand of Broc",
+        "type": "Leather Gloves",
+        "properties": "Defense: 14 (Base Defense: 2-3)\nRequired Level: 5\nDurability: 12\n+10-20% Enhanced Defense (varies)\n+10 Defense\n3% Life Stolen Per Hit\n3% Mana Stolen Per Hit\nPoison Resist +10%\n+20 To Mana\n(Only Spawns In Patch 1.09 or later)",
+        "item": "Unique",
+        "image":"gloves_l"
+    },
+    {
+        "kind": "Armor",
+        "part": "Gloves",
+        "value": "normal",
+        "name": "Bloodfist",
+        "type": "Heavy Gloves",
+        "properties": "Defense: 17-18 (varies)(Base Defense: 5-6)\nRequired Level: 9\nDurability: 14\n+10-20% Enhanced Defense (varies)\n+10 Defense\n+10% Increased Attack Speed\n+30% Faster Hit Recovery\n+40 To Life\n+5 To Min Damage\n(Only Spawns In Patch 1.09 or later)",
+        "item": "Unique",
+        "image":"heavy_gloves"
+    },
+    {
+        "kind": "Armor",
+        "part": "Gloves",
+        "value": "normal",
+        "name": "Chance Guards",
+        "type": "Chain Gloves",
+        "properties": "Defense: 27-28 (varies)(Base Defense: 8-9)\nRequired Level: 15\nRequired Strength: 25\nDurability: 16\n+20-30% Enhanced Defense (varies)\n+15 Defense\n+25 To Attack Rating\n25-40% Better Chance of Getting Magic Item (varies)\n200% Extra Gold From Monsters\n+2 To Light Radius\n(Only Spawns In Patch 1.09 or later)",
+        "item": "Unique",
+        "image":"bracers_m"
+    },
+    {
+        "kind": "Armor",
+        "part": "Gloves",
+        "value": "normal",
+        "name": "Magefist",
+        "type": "Light Gauntlets",
+        "properties": "Defense: 24-25 (varies)(Base Defense: 9-11)\nRequired Level: 23\nRequired Strength: 45\nDurability: 18\n+20-30% Enhanced Defense (varies)\n+10 Defense\n+1 To Fire Skills\n+20% Faster Cast Rate\nRegenerate Mana 25%\nAdds 1-6 Fire Damage\n(Only Spawns In Patch 1.09 or later)",
+        "item": "Unique",
+        "image":"light_gauntlets"
+    },
+    {
+        "kind": "Armor",
+        "part": "Gloves",
+        "value": "normal",
+        "name": "Frostburn",
+        "type": "Gauntlets",
+        "properties": "Defense: 47-49 (varies)(Base Defense: 12-15)\nRequired Level: 29\nRequired Strength: 60\nDurability: 24\n+10-20% Enhanced Defense (varies)\n+30 Defense\n+5% Enhanced Damage\nIncrease Maximum Mana 40%*\nAdds 1-6 Cold Damage, Cold Duration: 2 Seconds\n(Only Spawns In Patch 1.09 or later)",
+        "item": "Unique",
+        "image":"gaunlets_h"
+    }
+]

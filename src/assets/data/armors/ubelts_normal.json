@@ -1,0 +1,52 @@
+[
+    {
+        "kind": "Armor",
+        "part": "Belts",
+        "value": "normal",
+        "name": "Lenymo",
+        "type": "Sash",
+        "properties": "Defense: 2\nRequired Level: 7\nDurability: 12\n8 Boxes\nRegenerate Mana 30%\nAll Resistances +5\n+15 To Mana\n+1 To Light Radius\n(Spawns In Any Patch)",
+        "item": "Unique",
+        "image": "sash_l"
+    },
+    {
+        "kind": "Armor",
+        "part": "Belts",
+        "value": "normal",
+        "name": "Snakecord",
+        "type": "Light Belt",
+        "properties": "Defense: 14-15 (varies)(Base Defense: 3) \nRequired Level: 12\nDurability: 14\n8 Boxes\n+20-30% Enhanced Defense (varies)\n+10 Defense\nReplenish Life +5\nPoison Resist +25%\nPoison Length Reduced By 50%\n+12 Poison Damage Over 3 Seconds\n(Only Spawns In Patch 1.09 or later)",
+        "item": "Unique",
+        "image": "light_belt"
+    },
+    {
+        "kind": "Armor",
+        "part": "Belts",
+        "value": "normal",
+        "name": "Nightsmoke",
+        "type": "Belt",
+        "properties": "Defense: 22-24 (varies)(Base Defense: 5)\nRequired Level: 20\nRequired Strength: 25\nDurability: 16\n12 Boxes\n+30-50% Enhanced Defense (varies)\n+15 Defense\n50% Damage Taken Goes to Mana*\nDamage Reduced By 2\nAll Resistances +10\n+20 To Mana\n(Only Spawns In Patch 1.09 or later)",
+        "item": "Unique",
+        "image": "belt_m"
+    },
+    {
+        "kind": "Armor",
+        "part": "Belts",
+        "value": "normal",
+        "name": "Goldwrap",
+        "type": "Heavy Belt",
+        "properties": "Defense: 34-36 (varies)(Base Defense: 6)\nRequired Level: 27\nRequired Strength: 45\nDurability: 18\n12 Boxes\n+40-60% Enhanced Defense (varies)\n+25 Defense\n10% Increased Attack Speed\n30% Better Chance Of Getting Magic Items\n50-80% Extra Gold From Monsters (varies)\n+2 To Light Radius\n(Only Spawns In Patch 1.09 or later)",
+        "item": "Unique",
+        "image": "heavy_belt"
+    },
+    {
+        "kind": "Armor",
+        "part": "Belts",
+        "value": "normal",
+        "name": "Bladebuckle",
+        "type": "Plated Belt",
+        "properties": "Defense: 51-54 (varies)(Base Defense: 8-11)\nRequired Level: 29\nRequired Strength: 60\nDurability: 24\n16 Boxes\n+80-100% Enhanced Defense (varies)\n+30 Defense\n+30% Faster Hit Recovery\n+10 To Dexterity\n+5 To Strength\nDamage Reduced By 3\nAttacker Takes Damage of 8*\n(Only Spawns In Patch 1.09 or later)",
+        "item": "Unique",
+        "image": "girdle_h"
+    }
+]

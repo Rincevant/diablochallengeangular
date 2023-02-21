@@ -1,0 +1,82 @@
+[
+    {
+        "kind": "Armor",
+        "part": "Shields",
+        "value": "exceptional",
+        "name": "Visceratuant",
+        "type": "Defender",
+        "properties": "Defense: 100-125 (varies)(Base Defense: 41-49)\nRequired Level: 28\nRequired Strength: 38\nChance to Block: Pal: 70%, Ama/Asn/Bar: 65%, Dru/Nec/Sor: 60%\nDurability: 68\nPaladin Smite Damage: 8 To 12\n+100-150% Enhanced Defense (varies)\n30% Increased Chance of Blocking\n30% Faster Block Rate\n+1 To Sorceress Skill Levels\nAttacker Takes Lightning Damage of 10\n(Only Spawns In Patch 1.09 or later)",
+        "item": "Unique",
+        "image":"pelta_lunata"
+    },
+    {
+        "kind": "Armor",
+        "part": "Shields",
+        "value": "exceptional",
+        "name": "Moser's Blessed Circle",
+        "type": "Round Shield",
+        "properties": "Defense: 156-179 (varies)(Base Defense: 47-55)\nRequired Level: 31\nRequired Strength: 53\nChance to Block: Pal: 67%, Ama/Asn/Bar: 62%, Dru/Nec/Sor: 57%\nDurability: 64\nPaladin Smite Damage: 7 To 14\n+180-220% Enhanced Defense (varies)\n+25% Increased Chance of Blocking\n30% Faster Block Rate\nAll Resistances +25\nSocketed (2)\n(Only Spawns In Patch 1.09 or later)",
+        "item": "Unique",
+        "image":"mosers_blessed_circle"
+    },
+    {
+        "kind": "Armor",
+        "part": "Shields",
+        "value": "exceptional",
+        "name": "Stormchaser",
+        "type": "Scutum",
+        "properties": "Defense: 161-198 (varies)(Base Defense: 53-61)\nRequired Level: 35\nRequired Strength: 71\nChance to Block: Pal: 64%, Ama/Asn/Bar: 59%, Dru/Nec/Sor: 54%\nDurability: 62\nPaladin Smite Damage: 11 To 15\n+160-220% Enhanced Defense (varies)\n+20% Increased Chance of Blocking\n4% Chance To Cast Level 5 Tornado When Struck\n4% Chance To Cast Level 6 Blizzard When Struck\n10% Faster Block Rate\n+150 To Attack Rating\nLightning Resist +50%\nHalf Freeze Duration\nAdds 1-60 Lightning Damage\n(Only Spawns In Patch 1.09 or later)",
+        "item": "Unique",
+        "image":"stormchaser"
+    },
+    {
+        "kind": "Armor",
+        "part": "Shields",
+        "value": "exceptional",
+        "name": "Tiamat's Rebuke",
+        "type": "Dragon Shield",
+        "properties": "Defense: 163-204 (varies)(Base Defense: 59-67)\nRequired Level: 38\nRequired Strength: 91\nChance to Block: Pal: 48%, Ama/Asn/Bar: 43%, Dru/Nec/Sor: 38%\nDurability: 116\nPaladin Smite Damage: 15 To 24\n+140-200% Enhanced Defense (varies)\nAdds 27-53 Cold Damage - 6 Second Duration\nAdds 35-95 Fire Damage\nAdds 1-120 Lightning Damage\n3% Chance To Cast Level 6 Hydra When Struck\n5% Chance To Cast Level 7 Nova When Struck\n5% Chance To Cast Level 9 Frost Nova When Struck\nAll Resistances +25-35% (varies)\n(Only Spawns In Patch 1.09 or later)",
+        "item": "Unique",
+        "image":"steelclash"
+    },
+    {
+        "kind": "Armor",
+        "part": "Shields",
+        "value": "exceptional",
+        "name": "Lance Guard",
+        "type": "Barbed Shield",
+        "properties": "Defense: 134-173 (varies)(Base Defense: 58-78)\nRequired Level: 35\nRequired Strength: 65\nChance to Block: Pal: 47%, Ama/Asn/Bar: 42%, Dru/Nec/Sor: 37%\nDurability: 55\nPaladin Smite Damage: 18 To 35\n+70-120% Enhanced Defense (varies)\n15% Damage Taken Goes To Mana\n30% Faster Hit Recovery\n20% Deadly Strike\n+50 To Life\nAttacker Takes Damage of 47\n(Only Spawns In Patch 1.09 or later)",
+        "item": "Unique",
+        "image":"lance_guard"
+    },
+    {
+        "kind": "Armor",
+        "part": "Shields",
+        "value": "exceptional",
+        "name": "Gerke's Sanctuary",
+        "type": "Pavise",
+        "properties": "Defense: 221-268 (varies)(Base Defense: 68-78)\nRequired Level: 44\nRequired Strength: 133\nChance to Block: Pal: 84%, Ama/Asn/Bar: 79%, Dru/Nec/Sor: 74%\nDurability: 172\nPaladin Smite Damage: 10 To 17\n+180-240% Enhanced Defense (varies)\n+30% Increased Chance of Blocking\nAll Resistances +20-30 (varies)\nReplenish Life +15\nDamage Reduced By 11-16 (varies)\nMagic Damage Reduced By 14-18 (varies)\n(Only Spawns In Patch 1.09 or later)",
+        "item": "Unique",
+        "image":"bverrit_keep"
+    },
+    {
+        "kind": "Armor",
+        "part": "Shields",
+        "value": "exceptional",
+        "name": "Lidless Wall",
+        "type": "Grim Shield",
+        "properties": "Defense: 271-347 (varies)(Base Defense: 50-150)\nRequired Level: 41\nRequired Strength: 58\nChance to Block: Pal: 50%, Ama/Asn/Bar: 45%, Dru/Nec/Sor: 40%\nDurability: 70\nPaladin Smite Damage: 14 To 20\n+80-130% Enhanced Defense (varies)\n+1 To All Skills\nIncrease Maximum Mana 10%\n20% Faster Cast Rate\n+3-5 To Mana After Each Kill (varies)\n+10 To Energy\n+1 To Light Radius\n(Only Spawns In Patch 1.09 or later)",
+        "item": "Unique",
+        "image":"lidless_wall"
+    },
+    {
+        "kind": "Armor",
+        "part": "Shields",
+        "value": "exceptional",
+        "name": "Radament's Sphere",
+        "type": "Ancient Shield",
+        "properties": "Defense: 244-282 (varies)(Base Defense: 80-93)\nRequired Level: 50\nRequired Strength: 110\nChance to Block: Pal: 66%, Ama/Asn/Bar: 61%, Dru/Nec/Sor: 56%\nDurability: 100\nPaladin Smite Damage: 12 To 16\n+160-200% Enhanced Defense (varies)\n+20% Increased Chance Of Blocking\n+20% Faster Block Rate\n5% Chance To Cast Level 5 Poison Nova When Struck\nLevel 6 Poison Explosion (40 Charges)\nPoison Resist +75%\n+80 Poison Damage Over 4 Seconds\n(Only Spawns In Patch 1.09 or later)",
+        "item": "Unique",
+        "image":"the_ward"
+    }
+]

@@ -1,0 +1,52 @@
+[
+    {
+        "kind": "Armor",
+        "part": "Boots",
+        "value": "normal",
+        "name": "Hotspur",
+        "type": "Boots",
+        "properties": "Defense: 10 (Base Defense: 2-3)\nRequired Level: 5\nDurability: 12\nAssassin Kick Damage: 3-8\n+10-20% Enhanced Defense (varies)\n+6 Defense\nFire Resist +45%\n15% To Max Fire Resist\nAdds 3-6 Fire Damage\n+15 To Life\n(Only Spawns In Patch 1.09 or later)",
+        "item": "Unique",
+        "image":"leather_boots"
+    },
+    {
+        "kind": "Armor",
+        "part": "Boots",
+        "value": "normal",
+        "name": "Gorefoot",
+        "type": "Heavy Boots",
+        "properties": "Defense: 20-21 (varies)(Base Defense: 5-6)\nRequired Level: 9\nRequired Strength: 18\nDurability: 14\nAssassin Kick Damage: 4-10\n+20-30% Enhanced Defense (varies)\n20% Faster Run/Walk\n2% Mana Stolen Per Hit\nAttacker Takes Damage of 2\n+12 Defense\n+2 To Leap (Barbarian Only)\n(Only Spawns In Patch 1.09 or later)",
+        "item": "Unique",
+        "image":"heavy_boots"
+    },
+    {
+        "kind": "Armor",
+        "part": "Boots",
+        "value": "normal",
+        "name": "Treads of Cthon",
+        "type": "Chain Boots",
+        "properties": "Defense: 25-26 (varies)(Base Defense: 8-9)\nRequired Level: 15\nRequired Strength: 30\nDurability: 16\nAssassin Kick Damage: 6-12\n+30-40% Enhanced Defense (varies)\n+12 Defense\n50% Slower Stamina Drain\n30% Faster Run/Walk\n+50 Defense VS. Missile*\n+10 To Life\n(Only Spawns In Patch 1.09 or later)",
+        "item": "Unique",
+        "image":"chain_boots"
+    },
+    {
+        "kind": "Armor",
+        "part": "Boots",
+        "value": "normal",
+        "name": "Goblin Toe",
+        "type": "Light Plated Boots",
+        "properties": "Defense: 33-34 (varies)(Base Defense: 9-11)\nRequired Level: 22\nRequired Strength: 50\nDurability: 18\nAssassin Kick Damage: 8-16\n+50-60% Enhanced Defense (varies)\n25% Chance of a Crushing Blow\n-1 To Light Radius\nDamage Reduced By 1\nMagic Damage Reduced By 1\n+15 Defense\n(Only Spawns In Patch 1.09 or later)",
+        "item": "Unique",
+        "image":"light_plate_boots"
+    },
+    {
+        "kind": "Armor",
+        "part": "Boots",
+        "value": "normal",
+        "name": "Tearhaunch",
+        "type": "Greaves",
+        "properties": "Defense: 60-63 (varies)(Base Defense: 12-15)\nRequired Level: 29\nRequired Strength: 70\nDurability: 24\nAssassin Kick Damage: 10-20\n+60-80% Enhanced Defense (varies)\n20% Faster Run/Walk\nAll Resistances +10\n+35 Defense\n+5 To Dexterity\n+5 To Strength\n+2 To Vigor (Paladin Only)\n(Only Spawns In Patch 1.09 or later)",
+        "item": "Unique",
+        "image":"light_plate_boots"
+    }
+]

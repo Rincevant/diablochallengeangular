@@ -1,0 +1,32 @@
+[
+    {
+        "kind": "Armor",
+        "part": "Gloves",
+        "value": "elite",
+        "name": "Dracul's Grasp",
+        "type": "Vampirebone Gloves",
+        "properties": "Defense: 125-145 (varies)(Base Defense: 56-65)\nRequired Level: 76\nRequired Strength: 50\nDurability: 14\n+90-120% Enhanced Defense (varies)\n+10-15 To Strength (varies)\n+5-10 Life After Each Kill (varies)\n25% Chance of Open Wounds\n7-10% Life Stolen Per Hit (varies)\n5% Chance To Cast Level 10 Life Tap On Striking\n(Only Spawns In Patch 1.10 or later)",
+        "item": "Unique",
+        "image":"heavy_gloves"
+    },
+    {
+        "kind": "Armor",
+        "part": "Gloves",
+        "value": "elite",
+        "name": "Soul Drainer",
+        "type": "Vambraces",
+        "properties": "Defense: 129-149 (varies)(Base Defense: 59-67)\nRequired Level: 74\nRequired Strength: 106\nDurability: 16\n+90-120% Enhanced Defense (varies)\n4-7% Mana Stolen Per Hit (varies)\n4-7% Life Stolen Per Hit (varies)\n-50 To Monster Defense Per Hit\n8% Chance To Cast Level 3 Weaken On Striking\n(Only Spawns In Patch 1.10 or later)",
+        "item": "Unique",
+        "image":"bracers_m"
+    },
+    {
+        "kind": "Armor",
+        "part": "Gloves",
+        "value": "elite",
+        "name": "Steelrend",
+        "type": "Ogre Gauntlets",
+        "properties": "Defense: 232-281 (varies)(Base Defense: 62-71)\nRequired Level: 70\nRequired Strength: 185\nDurability: 24\n+170-210 Defense (varies)\n+30-60% Enhanced Damage (varies)\n10% Chance of Crushing Blow\n+15-20 To Strength (varies)\n(Only Spawns In Patch 1.10 or later)",
+        "item": "Unique",
+        "image":"gaunlets_h"
+    }
+]

@@ -1,0 +1,52 @@
+[
+    {
+        "kind": "Armor",
+        "part": "Gloves",
+        "value": "exceptional",
+        "name": "Venom Grip",
+        "type": "Demonhide Gloves",
+        "properties": "Defense: 97-118 (varies)(Base Defense: 28-35)\nRequired Level: 29\nRequired Strength: 20\nDurability: 12\n+130-160% Enhanced Defense (varies)\n+15-25 Defense (varies)\n5% Chance of Crushing Blow\n+60 Poison Damage Over 4 Seconds\n5% Life Stolen Per Hit\n5% To Maximum Poison Resist\nPoison Resist +30%\n(Only Spawns In Patch 1.09 or later)",
+        "item": "Unique",
+        "image":"gloves_l"
+    },
+    {
+        "kind": "Armor",
+        "part": "Gloves",
+        "value": "exceptional",
+        "name": "Gravepalm",
+        "type": "Sharkskin Gloves",
+        "properties": "Defense: 96-112 (varies) (Base Defense: 33-39)\nRequired Level: 32\nRequired Strength: 20\nDurability: 14\n+140-180% Enhanced Defense (varies)\n+100-200% Damage To Undead (varies)\n+100-200 To Attack Rating Against Undead(varies)\n+10 To Energy\n+10 To Strength\n(Only Spawns In Patch 1.09 or later)",
+        "item": "Unique",
+        "image":"heavy_gloves"
+    },
+    {
+        "kind": "Armor",
+        "part": "Gloves",
+        "value": "exceptional",
+        "name": "Ghoulhide",
+        "type": "Heavy Bracers",
+        "properties": "Defense: 112-130 (varies)(Base Defense: 37-44)\nRequired Level: 36\nRequired Strength: 58\nDurability: 16\n+150-190% Enhanced Defense (varies)\n+ (8 Per Character Level) 8-792  To Attack Rating Against Undead (Based On Character Level)\n+ (2 Per Character Level) 2-198 % Damage To Undead (Based On Character Level)\n4-5% Mana Stolen Per Hit (varies)\n+20 To Life\n(Only Spawns In Patch 1.09 or later)",
+        "item": "Unique",
+        "image":"bracers_m"
+    },
+    {
+        "kind": "Armor",
+        "part": "Gloves",
+        "value": "exceptional",
+        "name": "Lava Gout",
+        "type": "Battle Gauntlets",
+        "properties": "Defense: 120-144 (varies)(Base Defense: 39-47)\nRequired Level: 42\nRequired Strength: 88\nDurability: 38\n+150-200% Enhanced Defense (varies)\n2% Chance To Cast Level 10 Enchant On Striking\nHalf Freeze Duration\nAdds 13-46 Fire Damage\n+20% Increased Attack Speed\nFire Resist +24%\n(Only Spawns In Patch 1.09 or later)",
+        "item": "Unique",
+        "image":"light_gauntlets"
+    },
+    {
+        "kind": "Armor",
+        "part": "Gloves",
+        "value": "exceptional",
+        "name": "Hellmouth",
+        "type": "War Gauntlets",
+        "properties": "Defense: 135-162 (varies)(Base Defense: 43-53)\nRequired Level: 47\nRequired Strength: 110\nDurability: 39\n+150-200% Enhanced Defense (varies)\n4% Chance To Cast Level 12 Firestorm On Striking\n2% Chance To Cast Level 4 Meteor On Striking\n+15 Fire Absorb\nAdds 15-72 Fire Damage\n(Only Spawns In Patch 1.09 or later)",
+        "item": "Unique",
+        "image":"gaunlets_h"
+    }
+]

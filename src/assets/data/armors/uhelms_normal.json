@@ -1,0 +1,98 @@
+[
+    {
+        "kind": "Armor",
+        "part": "Helms",
+        "value": "normal",
+        "name": "Biggin's Bonnet",
+        "type": "Cap",
+        "properties": "Defense: 17-19 (varies)(Base Defense: 3-5)\nRequired Level: 3\nDurability: 12\n+30% Enhanced Damage\n+14 Defense\n+30 To Attack Rating\n+15 To Mana\n+15 To Life\n(Spawns In Any Patch)",
+        "item": "Unique",
+        "image":"war_bonnet",
+        "nameFR": "Capuchon de biggin",
+        "propertiesFR": "Niveau requis : 3\nDéfense : 17-19\nDurabilité : 12\n30% de dégâts supplémentaires\n+30 en niveau d’attaque\n+15 au Mana\n+15 en vie\n+14 en défense"
+    },
+    {
+        "kind": "Armor",
+        "part": "Helms",
+        "value": "normal",
+        "name": "Tarnhelm",
+        "type": "Skull Cap",
+        "properties": "Defense: 8-11 (varies)\nRequired Level: 15\nRequired Strength: 15\nDurability: 18\n+1 To All Skill Levels\n25-50% Better Chance of Getting Magic Items (varies)\n75% Extra Gold From Monsters\n(Spawns In Any Patch)",
+        "item": "Unique",
+        "image":"skull_cap",
+        "nameFR": "Tarnhelm",
+        "propertiesFR": "Niveau requis : 15\nDéfense : 8-11\nDurabilité : 18\nForce requise : 15\n+1 à toutes les compétences\n+25-50% de chance de trouver un objet magique\n+75% d’or récupéré sur les monstres"
+    },
+    {
+        "kind": "Armor",
+        "part": "Helms",
+        "value": "normal",
+        "name": "Coif of Glory",
+        "type": "Helm",
+        "properties": "Defense: 25-28 (varies)(Base Defense: 15-18)\nRequired Level: 14\nRequired Strength: 26\nDurability: 24\n+10 Defense\nAttacker Takes Lightning Damage of 7*\nHit Blinds Target*\nLightning Resist +15%\n+100 Defense vs. Missile*\n(Only Spawns In Patch 1.09 or later)",
+        "item": "Unique",
+        "image":"coif_of_glory",
+        "nameFR": "Calotte de la gloire",
+        "propertiesFR": "Niveau requis :14\nDéfense : 25-28\nForce requise : 26\nDurabilité : 24+10 en défense\nAttaquant encaisse des dégâts de 7\nChaque coup aveugle l’adversaire\n+15 en résistance à la foudre\n+100 en défense contre les missiles"
+    },
+    {
+        "kind": "Armor",
+        "part": "Helms",
+        "value": "normal",
+        "name": "Duskdeep",
+        "type": "Full Helm",
+        "properties": "Defense: 45-60 (varies)(Base Defense: 23-26)\nRequired Level: 17\nRequired Strength: 41\nDurability: 30\n+30-50% Enhanced Defense (varies)\n+10-20 Defense (varies)\nDamage Reduced By 7\nAll Resistances +15\n+8 To Maximum Damage\n-2 To Light Radius\n(Only Spawns In Patch 1.09 or later)",
+        "item": "Unique",
+        "image":"duskdeep",
+        "nameFR": "Duskdeep",
+        "propertiesFR": "Niveau requis : 17\nDéfense : 45-60\nForce requise : 41\nDurabilité : 30\n+30-50 % en défense\n+10-20 en défense\nDégâts réduits de 7\n+15 à toutes les résistances\n+8 aux dégâts max\n-2 au cercle de lumière"
+    },
+    {
+        "kind": "Armor",
+        "part": "Helms",
+        "value": "normal",
+        "name": "Howltusk",
+        "type": "Great Helm",
+        "properties": "Defense: 64  (Base Defense: 30-35)\nRequired Level: 25\nRequired Strength: 63\nDurability: 40\n35% Damage Taken Goes to Mana\n+80% Enhanced Defense\nMagic Damage Reduced By 2\nAttacker Takes Damage of 3*\nKnockback\nHit Causes Monster To Flee 25%\n(Only Spawns In Patch 1.09 or later)",
+        "item": "Unique",
+        "image":"great_helm",
+        "nameFR": "Howltusk",
+        "propertiesFR": "Niveau requis : 25\nDéfense : 64\nForce requise : 63\nDurabilité : 40\n35% des dégâts vont au mana\n+80% de défense\nDégâts magiques réduits de 2\nAttaquant encaisse des dégâts de 3\nRiposter\nLe monstre touché s’enfuit 25%"
+    },
+    {
+        "kind": "Armor",
+        "part": "Helms",
+        "value": "normal",
+        "name": "The Face of Horror",
+        "type": "Mask",
+        "properties": "Defense: 34-52 (varies)(Base Defense: 9-27)\nRequired Level: 20\nRequired Strength: 23\nDurability: 20\n+25 Defense\n+50% Damage To Undead\nHit Causes Monsters to Flee 50%\nAll Resistances +10\n+20 To Strength\n(Only Spawns In Patch 1.09 or later)",
+        "item": "Unique",
+        "image":"mask",
+        "nameFR": "Le visage de l’horreur",
+        "propertiesFR": "Niveau requis : 20\nDéfense : 34-52\nDurabilité : 20\nForce requise : 23\n150% de dégâts sur les morts-vivants\nLe monstre touché s’enfuit (50% de chances de réussir le coup)\n+10 à toutes les résistances\n+20 en force\n+25 en défense"
+    },
+    {
+        "kind": "Armor",
+        "part": "Helms",
+        "value": "normal",
+        "name": "Undead Crowned",
+        "type": "Crowned",
+        "properties": "Defense: 99-113 (varies)(Base Defense: 25-45)\nRequired Level: 29\nRequired Strength: 55\nDurability: 50\n+30-60% Enhanced Defense (varies)\n+50% Damage Vs. Undead\n+50-100 Attack Rating Vs. Undead (varies)\nHalf Freeze Duration\n5% Life Stolen Per Hit\nPoison Resist +50%\n+40 Defense\n+3 To Skeleton Mastery (Necromancer Only)\n(Only Spawns In Patch 1.09 or later)",
+        "item": "Unique",
+        "image":"crown",
+        "nameFR": "Couronnes des morts-vivants",
+        "propertiesFR": "Niveau requis : 29\nDéfense : 99-113\nForce requise : 55\nDurabilité : 50\n+30-60% de défense\n+50% de dégâts contre les morts-vivants\n+50-100 au niveau d’attaque contre les morts-vivants\nDurée d’immobilisation réduire de moitié\n5% de vie volée par coup\n+50 à la résistance au poison\n+40 en défense\n+3 à Maîtrise des Squelettes (Nécromancien uniquement)"
+    },
+    {
+        "kind": "Armor",
+        "part": "Helms",
+        "value": "normal",
+        "name": "Wormskull",
+        "type": "Bone Helm",
+        "properties": "Defense: 33-36 (varies)\nRequired Level: 21\nRequired Strength: 25\nDurability: 40\n+1 To Necromancer Skill Levels\n+80 Poison Damage Over 8 Seconds\n5% Life Stolen Per Hit\nPoison Resist +25%\n+10 To Mana\n(Only Spawns In Patch 1.09 or later)",
+        "item": "Unique",
+        "image":"wormskull",
+        "nameFR": "Os de ver",
+        "propertiesFR": "Niveau requis : 21\nDéfense : 33-36\nForce requise : 25\nDurabilité : 40+1 aux compétences du Nécromancien\n+80 de dégâts de poison sur 8 secondes\n5% de vie volée à chaque coup\n+25 à la résistance au poison\n+10 au mana"
+    }
+]

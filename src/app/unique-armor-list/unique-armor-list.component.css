@@ -161,3 +161,11 @@ h2 {
 #btnSave:hover {
     background-image: url('../../assets/images/saveon.jpg');
 }
+
+.white {
+    color: white;
+}
+
+.blue {
+    color:rgb(88,88,214)
+}

@@ -1,0 +1,52 @@
+[
+    {
+        "kind": "Armor",
+        "part": "Belts",
+        "value": "exceptional",
+        "name": "String of Ears",
+        "type": "Demonhide Sash",
+        "properties": "Defense: 102-113 (varies)(Base Defense: 29-34)\nRequired Level: 29\nRequired Strength: 20\nDurability: 22\n16 Boxes\n+150-180% Enhanced Defense (varies)\n+15 Defense\n6-8% Life Stolen Per Hit (varies)\nDamage Reduced By 10-15% (varies)\nMagic Damage Reduced 10-15 (varies)\n(Only Spawns In Patch 1.09 or later)",
+        "item": "Unique",
+        "image": "sash_l"
+    },
+    {
+        "kind": "Armor",
+        "part": "Belts",
+        "value": "exceptional",
+        "name": "Razortail",
+        "type": "Sharkskin Belt",
+        "properties": "Defense: 96-107 (varies)(Base Defense: 31-36)\nRequired Level: 32\nRequired Strength: 20\nDurability: 14\n16 Boxes\n+120-150% Enhanced Defense (varies)\n+15 Defense\n+10 To Maximum Damage\nPiercing Attack (33)\n+15 To Dexterity\nAttacker Takes Damage of (1 Per Character Level) 1-99 (Based On Character Level)\n(Only Spawns In Patch 1.09 or later)",
+        "item": "Unique",
+        "image": "light_belt"
+    },
+    {
+        "kind": "Armor",
+        "part": "Belts",
+        "value": "exceptional",
+        "name": "Gloom's Trap",
+        "type": "Mesh Belt",
+        "properties": "Defense:  90-102 (varies)(Base Defense: 35-40)\nRequired Level: 36\nRequired Strength: 58\nDurability: 16\n16 Boxes\n+120-150% Enhanced Defense (varies)\n5% Mana Stolen Per Hit\nIncrease Maximum Mana 15%\nRegenerate Mana 15%\n+15 To Vitality\n-3 To Light Radius\n(Only Spawns In Patch 1.09 or later)",
+        "item": "Unique",
+        "image": "belt_m"
+    },
+    {
+        "kind": "Armor",
+        "part": "Belts",
+        "value": "exceptional",
+        "name": "Snowclash",
+        "type": "Battle Belt",
+        "properties": "Defense: 98-116 (varies)(Base Defense: 37-42)\nRequired Level: 42\nRequired Strength: 88\nDurability: 18\n16 Boxes\n+130-170% Enhanced Defense (varies)\n5% Chance To Cast Level 7-19 Blizzard When Struck (varies)\n+15 Cold Absorb\n15% To Maximum Cold Resist\nAdds 13-21 Cold Damage @ 3 sec. duration (Normal)\n+2 To Chilling Armor (Sorceress Only)\n+2 To Blizzard (Sorceress Only)\n+3 To Glacial Spike (Sorceress Only)\n(Only Spawns In Patch 1.10 or later)",
+        "item": "Unique",
+        "image": "heavy_belt"
+    },
+    {
+        "kind": "Armor",
+        "part": "Belts",
+        "value": "exceptional",
+        "name": "Thundergod's Vigor",
+        "type": "War Belt",
+        "properties": "Defense: 137-159 (varies)(Base Defense: 41-52)\nRequired Level: 47\nRequired Strength: 110\nDurability: 24\n16 Boxes\n+160-200% Enhanced Defense (varies)\nAdds 1-50 Lightning Damage\n5% Chance To Cast Level 7 Fist Of The Heavens When Struck\n+20 Lightning Absorb\n10% To Maximum Lightning Resist\n+20 To Strength\n+20 To Vitality\n+3 To Lightning Fury (Amazon Only)\n+3 To Lightning Strike (Amazon Only)\n(Only Spawns In Patch 1.09 or later)",
+        "item": "Unique",
+        "image": "girdle_h"
+    }
+]

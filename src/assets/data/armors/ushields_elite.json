@@ -1,0 +1,62 @@
+[
+    {
+        "kind": "Armor",
+        "part": "Shields",
+        "value": "elite",
+        "name": "Blackoak Shield",
+        "type": "Luna",
+        "properties": "Defense: 322-372 (varies)(Base Defense: 108-123)\nRequired Level: 61\nRequired Strength: 100\nChance to Block: Pal: 50%, Ama/Asn/Bar: 45%, Dru/Nec/Sor: 40%\nPaladin Smite Damage: 17 To 29\nDurability: 129\n+160-200% Enhanced Defense (varies)\n+ (0.625 Per Character Level) +0-61 Absorb Cold Damage (Based On Character Level)\n+ (1.25 Per Character Level) +1-123 To Life (Based On Character Level)\n+ (0.5 Per Character Level) +0-49 To Dexterity (Based On Character Level)\n+50% Faster Block Rate\n+4% Chance To Cast Level 5 Weaken When Struck\nHalf Freeze Duration\n(Only Spawns In Patch 1.10 or later)",
+        "item": "Unique",
+        "image":"umbral_disk"
+    },
+    {
+        "kind": "Armor",
+        "part": "Shields",
+        "value": "elite",
+        "name": "Stormshield",
+        "type": "Monarch",
+        "properties": "Defense: (136-504) - (151-519) (varies)(Base Defense: 133-148)\nRequired Level: 73\nRequired Strength: 156\nChance to Block: Pal: 77%, Ama/Asn/Bar: 72%, Dru/Nec/Sor: 67%\nPaladin Smite Damage: 12 To 34\n+ (3.75 Per Character Level) 3-371 Defense (Based On Character Level)\n+25% Increased Chance Of Blocking\n35% Faster Block Rate\nDamage Reduced By 35%\nCold Resist +60%\nLightning Resist +25%\n+30 To Strength\nAttacker Takes Lightning Damage of 10\nIndestructible\n(Only Spawns In Patch 1.09 or later)",
+        "item": "Unique",
+        "image":"steelclash"
+    },
+    {
+        "kind": "Armor",
+        "part": "Shields",
+        "value": "elite",
+        "name": "Spike Thorn",
+        "type": "Blade Barrier",
+        "properties": "Defense: 360-410 (varies)(Base Defense: 147-163)\nRequired Level: 70\nRequired Strength: 118\nChance to Block: Pal: 50%, Ama/Asn/Bar: 45%, Dru/Nec/Sor: 40%\nDurability: 333\nPaladin Smite Damage: 26 To 40\n+120-150% Enhanced Defense (varies)\n+30% Faster Hit Recovery\nDamage Reduced By 15-20% (varies)\n+ (1.375 Per Character Level) Attacker Takes Damage of 1-136 (Based On Character Level)\nSocketed (1)\n(Only Spawns In Patch 1.10 or later)",
+        "item": "Unique",
+        "image":"swordback_hold"
+    },
+    {
+        "kind": "Armor",
+        "part": "Shields",
+        "value": "elite",
+        "name": "Medusa's Gaze",
+        "type": "Aegis",
+        "properties": "Defense: 405-453 (varies)(Base Defense: 145-161)\nRequired Level: 76\nRequired Strength: 219\nChance to Block: Pal: 54%, Ama/Asn/Bar: 49%, Dru/Nec/Sor: 44%\nDurability: 92\nPaladin Smite Damage: 18 To 28\n+150-180% Enhanced Defense (varies)\n5-9% Life Stolen Per Hit (varies)\nSlows Target By 20%\nCold Resist +40-80% (varies)\n10% Chance To Cast Level 7 Lower Resist When Struck\n100% Chance To Cast Level 44 Nova When You Die\n(Only Spawns In Patch 1.10 or later)",
+        "item": "Unique",
+        "image":"bverrit_keep"
+    },
+    {
+        "kind": "Armor",
+        "part": "Shields",
+        "value": "elite",
+        "name": "Head Hunter's Glory",
+        "type": "Troll Nest",
+        "properties": "Defense: 478-593 (varies)(Base Defense: 158-173)\nRequired Level: 75\nRequired Strength: 106\nChance to Block: Pal: 50%, Ama/Asn/Bar: 45%, Dru/Nec/Sor: 40%\nDurability: 74\nPaladin Smite Damage: 24 To 38\n+320-420 Defense (varies)\n+300-350 Defense vs. Missile (varies)\nFire Resist +20-30% (varies)\nPoison Resist +30-40% (varies)\n+5-7 Life After Each Kill (varies)\nSocketed (1-3) (varies)\n(Only Spawns In Patch 1.10 or later)",
+        "item": "Unique",
+        "image":"wall_of_the_eyeless"
+    },
+    {
+        "kind": "Armor",
+        "part": "Shields",
+        "value": "elite",
+        "name": "Spirit Ward",
+        "type": "Ward",
+        "properties": "Defense: 393-478 (varies)(Base Defense: 153-170)\nRequired Level: 68\nRequired Strength: 185\nChance to Block: Pal: 74-84%, Ama/Asn/Bar: 69-79%, Dru/Nec/Sor: 64-74%\nPaladin Smite Damage: 11 To 35\n+130-180% Enhanced Defense (varies)\n+25% Faster Block Rate\n20-30% Increased Chance of Blocking (varies)\nAll Resistances +30-40 (varies)\n+6-11 Cold Absorb (varies)\n5% Chance To Cast Level 8 Fade When Struck\n(Only Spawns In Patch 1.10 or later)",
+        "item": "Unique",
+        "image":"the_ward"
+    }
+]

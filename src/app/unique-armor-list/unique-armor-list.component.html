@@ -1,9 +1,8 @@
 <app-menu-items></app-menu-items>
 
-<!-- id a revoir class a finir obtain a implementer et propreties -->
 <div id="unique_content">
         
-        <div *ngFor="let item of listUniqueItems" id="{{item.name?.toLowerCase()}}" class="objet" (click)="obtain('')">                   
+        <div *ngFor="let item of listUniqueItems" id="{{item.name?.toLowerCase()}}" class="objet">                   
             <div class="tooltip">
                 <img src="/assets/images/{{item.kind}}/{{item.image}}.png" class="obj_image">
                 <span class="obj_name">{{item.name}}</span>
@@ -14,9 +13,8 @@
                 <!-- Proprietes -->
                 <div class="tooltiptext">
                     <h3>{{item.name}}</h3>
-                    
+                    <p *ngFor="let propretie of item.propertiesList" [ngClass]="getColorPropertie(propretie)">{{propretie}}</p>
                 </div>
-
             </div>
         </div>  
 </div>

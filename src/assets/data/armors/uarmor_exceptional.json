@@ -1,0 +1,152 @@
+[
+    {
+        "kind": "Armor",
+        "part": "Chests",
+        "value": "exceptional",
+        "name": "The Spirit Shroud",
+        "type": "Ghost Armor",
+        "properties": "Defense: 295 (Base Defense: 102-117)\nRequired Level: 28\nRequired Strength: 38\nDurability: 20\n+150% Enhanced Defense\nCannot Be Frozen\n+1 To All Skills\nReplenish Life +10\nMagic Damage Reduced By 7-11 (varies)\n(Only Spawns In Patch 1.09 or later)",
+        "item": "Unique",
+        "image": "quilted_armor"
+    },
+    {
+        "kind": "Armor",
+        "part": "Chests",
+        "value": "exceptional",
+        "name": "Skin of the Vipermagi",
+        "type": "Serpentskin Armor",
+        "properties": "Defense: 279 (Base Defense: 111-126)\nRequired Level: 29\nRequired Strength: 43\nDurability: 24\n+120% Enhanced Defense\n+1 To All Skills\n30% Faster Cast Rate\nMagic Damage Reduced By 9-13 (varies)\nAll Resistances +20-35 (varies)\n(Only Spawns In Patch 1.09 or later)",
+        "item": "Unique",
+        "image": "hard_leather_armor"
+    },
+    {
+        "kind": "Armor",
+        "part": "Chests",
+        "value": "exceptional",
+        "name": "Skin of the Flayed One",
+        "type": "Demonhide Armor",
+        "properties": "Defense: 342-397 (varies)(Base Defense: 122-136)\nRequired Level: 31\nRequired Strength: 50\nDurability: 58\n+150-190% Enhanced Defense (varies)\nRepairs 1 Durability In 10 Seconds\n5-7% Life Stolen Per Hit (varies)\nReplenish Life +15-25 (varies)\nAttacker Takes Damage of 15\n(Only Spawns In Patch 1.09 or later)",
+        "item": "Unique",
+        "image": "hard_leather_armor"
+    },
+    {
+        "kind": "Armor",
+        "part": "Chests",
+        "value": "exceptional",
+        "name": "Iron Pelt",
+        "type": "Trellised Armor",
+        "properties": "Defense: (234-528) - (311-605) (varies)(Base Defense: 138-153)\nRequired Level: 33\nRequired Strength: 61\nDurability: 157\n+50-100% Enhanced Defense (varies)\n+ (3 Per Character Level) 3-297 Defense (Based On Character Level)\nDamage Reduced by 15-20 (varies)\nMagic Damage Reduced by 10-16 (varies)\n+25 To Life\n(Only Spawns In Patch 1.09 or later)",
+        "item": "Unique",
+        "image": "ironpelt"
+    },
+    {
+        "kind": "Armor",
+        "part": "Chests",
+        "value": "exceptional",
+        "name": "Crow Caw",
+        "type": "Tigulated Mail",
+        "properties": "Defense: 477-534 (varies)(Base Defense: 176-190)\nRequired Level: 37\nRequired Strength: 86\nDurability: 36\n+150-180% Enhanced Defense (varies)\n15% Increased Attack Speed\n15% Faster Hit Recovery\n35% Chance of Open Wounds\n+15 Dexterity\n(Only Spawns In Patch 1.09 or later)",
+        "item": "Unique",
+        "image": "scale_mail"
+    },
+    {
+        "kind": "Armor",
+        "part": "Chests",
+        "value": "exceptional",
+        "name": "Spirit Forge",
+        "type": "Linked Mail",
+        "properties": "Defense: 380-449 (varies)(Base Defense: 158-172)\nRequired Level: 35\nRequired Strength: 74\nDurability: 26\n+120-160% Enhanced Defense (varies)\n+ (1.25 Per Character Level) 1-123 Life (Based On Character Level)\nFire Resist +5%\nAdds 20-65 Fire Damage\n+15 To Strength\nGem Sockets (2)\n+4 To Light Radius\n(Only Spawns In Patch 1.09 or later)",
+        "item": "Unique",
+        "image": "ring_mail"
+    },
+    {
+        "kind": "Armor",
+        "part": "Chests",
+        "value": "exceptional",
+        "name": "Duriel's Shell",
+        "type": "Cuirass",
+        "properties": "Defense:  (528-650) - (610-732) (varies)(Base Defense: 188-202)\nRequired Level: 41\nRequired Strength: 65\nDurability: 150\n+160-200% Enhanced Defense (varies)\n+ (1.25 Per Character Level)  1-123 Defense (Based On Character Level)\n+ (1 Per Character Level) 1-99 To Life (Based On Character Level)\nResist Fire +20%\nResist Lightning +20%\nResist Poison +20%\nResist Cold +50%\nCannot Be Frozen\n+15 To Strength\n(Only Spawns In Patch 1.09 or later)",
+        "item": "Unique",
+        "image": "breast_plate"
+    },
+    {
+        "kind": "Armor",
+        "part": "Chests",
+        "value": "exceptional",
+        "name": "Shaftstop",
+        "type": "Mesh Armor",
+        "properties": "Defense: 599-684 (varies)(Base Defense: 198-213)\nRequired Level: 38\nRequired Strength: 92\nDurability: 45\n+180-220% Enhanced Defense (varies)\nDamage Reduced By 30%\n+250 Defense Vs. Missile\n+60 To Life\n(Only Spawns In Patch 1.09 or later)",
+        "item": "Unique",        
+        "image": "chain_mail"
+    },
+    {
+        "kind": "Armor",
+        "part": "Chests",
+        "value": "exceptional",
+        "name": "Skullder's Ire",
+        "type": "Russet Armor",
+        "properties": "Defense: 634-732 (varies)(Base Defense: 225-243)\nRequired Level: 42\nRequired Strength: 97\nDurability: 90\n+160-200% Enhanced Defense (varies)\nRepairs 1 Durability In 5 Seconds\n+ (1.25 Per Character Level)  1-123 % Better Chance Of Getting Magic Items (Based On Character Level)\n+1 To All Skill Levels\nMagic Damage Reduced By 10\n(Only Spawns In Patch 1.09 or later)",
+        "item": "Unique",
+        "image": "splint_mail"
+    },
+    {
+        "kind": "Armor",
+        "part": "Chests",
+        "value": "exceptional",
+        "name": "Que-Hegan's Wisdom",
+        "type": "Mage Plate",
+        "properties": "Defense: 628-681 (varies)(Base Defense: 225-261)\nRequired Level: 51\nRequired Strength: 55\nDurability: 60\n+140-160% Enhanced Defense (varies)\n+1 To All Skill Levels\n+3 To Mana After Each Kill\n20% Faster Cast Rate\n20% Faster Hit Recovery\nMagic Damage Reduced By 6-10 (varies)\n+15 To Energy\n(Only Spawns In Patch 1.09 or later)",
+        "item": "Unique",
+        "image": "light_plate"
+    },
+    {
+        "kind": "Armor",
+        "part": "Chests",
+        "value": "exceptional",
+        "name": "Toothrow",
+        "type": "Sharktooth Armor",
+        "properties": "Defense: 713-888 (varies)(Base Defense: 242-258)\nRequired Level: 48\nRequired Strength: 103\nDurability: 63\n+160-220% Enhanced Defense (varies)\n+40-60 Defense(varies)\n40% Chance of Open Wounds\nFire Resist +15%\n+10 Strength\nAttacker Takes Damage of 20-40 (varies)\n(Only Spawns In Patch 1.09 or later)",
+        "item": "Unique",
+        "image": "field_plate"
+    },
+    {
+        "kind": "Armor",
+        "part": "Chests",
+        "value": "exceptional",
+        "name": "Guardian Angel",
+        "type": "Templar Coat",
+        "properties": "Defense: 770-825 (varies)(Base Defense: 252-274)\nRequired Level: 45\nRequired Strength: 118\nDurability: 60\n+180-200% Enhanced Defense (varies)\n+20% Increased Chance Of Blocking\n+30% Faster Block Rate\n+ (2.5 Per Character Level) 2-247 To Attack Rating Against Demons (Based On Character Level)\n+1 To Paladin Skill Levels\n+4 To Light Radius\n15% To Maximum Poison Resist\n15% To Maximum Cold Resist\n15% To Maximum Lightning Resist\n15% To Maximum Fire Resist\n(Only Spawns In Patch 1.09 or later)",
+        "item": "Unique",
+        "image": "plate_mail"
+    },
+    {
+        "kind": "Armor",
+        "part": "Chests",
+        "value": "exceptional",
+        "name": "Atma's Wail",
+        "type": "Embossed Plate",
+        "properties": "Defense: (670-866) - (792-988) (varies)(Base Defense: 282-303)\nRequired Level: 51\nRequired Strength: 125\nDurability: 105\n+120-160% Enhanced Defense (varies)\n+ (2 Per Character Level) 2-198 Defense (Based On Character Level)\n30% Faster Hit Recovery\nReplenish Life +10\nIncrease Maximum Mana 15%\n+15 To Dexterity\n+20% Better Chance Of Getting Magic Items\n(Only Spawns In Patch 1.09 or later)",
+        "item": "Unique",
+        "image": "gothic_plate"
+    },
+    {
+        "kind": "Armor",
+        "part": "Chests",
+        "value": "exceptional",
+        "name": "Black Hades",
+        "type": "Chaos Armor",
+        "properties": "Defense: 823-1029 (varies)(Base Defense: 315-342)\nRequired Level: 53\nRequired Strength: 140\nDurability: 70\n+140-200% Enhanced Defense (varies)\n+30-60% Damage To Demons (varies)\n+200-250 To Attack Rating Against Demons (varies)\nHalf Freeze Duration\nGem Socket (3)\n-2 To Light Radius\n(Only Spawns In Patch 1.09 or later)",
+        "item": "Unique",
+        "image": "full_plate_mail"
+    },
+    {
+        "kind": "Armor",
+        "part": "Chests",
+        "value": "exceptional",
+        "name": "Corpsemourn",
+        "type": "Ornate Plate",
+        "properties": "Defense: 1127-1262 (varies)(Base Defense: 417-450)\nRequired Level: 55\nRequired Strength: 170\nDurability: 60\n+150-180% Enhanced Defense (varies)\nLevel 5 Corpse Explosion (40 Charges)\nAdds 12-36 Fire Damage\n6% Chance To Cast Level 2 Iron Maiden When Struck\nCold Resist +35%\n+10 To Vitality\n+8 To Strength\n(Only Spawns In Patch 1.09 or later)",
+        "item": "Unique",
+        "image": "ancient_armor"
+    }
+]

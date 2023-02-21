@@ -1,0 +1,52 @@
+[
+    {
+        "kind": "Armor",
+        "part": "Boots",
+        "value": "exceptional",
+        "name": "Infernostride",
+        "type": "Demonhide Boots",
+        "properties": "Defense: 94-105 (varies)(Base Defense: 28-35)\nRequired Level: 29\nRequired Strength: 20\nDurability: 12\nAssassin Kick Damage: 26-46\n5% Chance To Cast Level 8 Blaze When Struck\n20% Faster Run/Walk\nAdds 12-33 Fire Damage\n+120-150% Enhanced Defense (varies)\n+15 Defense\n10% To Maximum Fire Resist\nFire Resist +30%\n40-70% Extra Gold From Monsters (varies)\n+2 To Light Radius\n(Only Spawns In Patch 1.09 or later)",
+        "item": "Unique",
+        "image":"leather_boots"
+    },
+    {
+        "kind": "Armor",
+        "part": "Boots",
+        "value": "exceptional",
+        "name": "Waterwalk",
+        "type": "Sharkskin Boots",
+        "properties": "Defense: 112-124 (varies)(Base Defense: 33-39)\nRequired Level: 32\nRequired Strength: 47\nDurability: 14\nAssassin Kick Damage: 28-50\n+180-210% Enhanced Defense (varies)\n20% Faster Run/Walk\n+100 Defense Vs. Missile\n+15 To Dexterity\n+5% Maximum Fire Resist\nHeal Stamina Plus 50%\n+40 Max Stamina\n+45-65 To Life (varies)\n(Only Spawns In Patch 1.09 or later)",
+        "item": "Unique",
+        "image":"heavy_boots"
+    },
+    {
+        "kind": "Armor",
+        "part": "Boots",
+        "value": "exceptional",
+        "name": "Silkweave",
+        "type": "Mesh Boots",
+        "properties": "Defense: 112-130 (varies)(Base Defense: 37-44)\nRequired Level: 36\nRequired Strength: 65\nDurability: 16\nAssassin Kick Damage: 23-52\n+150-190% Enhanced Defense (varies)\n30% Faster Run/Walk\n+5 To Mana After Each Kill\nIncrease Maximum Mana 10%\n+200 Defense VS. Missile\n(Only Spawns In Patch 1.09 or later)",
+        "item": "Unique",
+        "image":"chain_boots"
+    },
+    {
+        "kind": "Armor",
+        "part": "Boots",
+        "value": "exceptional",
+        "name": "War Traveler",
+        "type": "Battle Boots",
+        "properties": "Defense: 120-139 (varies)(Base Defense: 39-47)\nRequired Level: 42\nRequired Strength: 95\nDurability: 48\nAssassin Kick Damage: 37-64\n+150-190% Enhanced Defense (varies)\n25% Faster Run/Walk\n+10 To Vitality\n+10 To Strength\nAdds 15-25 Damage\n40% Slower Stamina Drain\nAttacker Takes Damage Of 5-10 (varies)\n30-50% Better Chance of Getting Magic Items (varies)\n(Only Spawns In Patch 1.09 or later)",
+        "item": "Unique",
+        "image":"light_plate_boots"
+    },
+    {
+        "kind": "Armor",
+        "part": "Boots",
+        "value": "exceptional",
+        "name": "Gore Rider",
+        "type": "War Boots",
+        "properties": "Defense: 140-162 (varies)(Base Defense: 43-53)\nRequired Level: 47\nRequired Strength: 94\nDurability: 34\nAssassin Kick Damage: 39-80\n+160-200% Enhanced Defense (varies)\n30% Faster Run/Walk\n10% Chance Of Open Wounds\n15% Chance Of Crushing Blow\n15% Deadly Strike\nRequirements -25%\n+20 Maximum Stamina\n(Only Spawns In Patch 1.09 or later)",
+        "item": "Unique",
+        "image":"light_plate_boots"
+    }
+]
