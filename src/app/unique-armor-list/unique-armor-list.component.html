@@ -9,8 +9,14 @@
                 <span class="obj_name">{{item.name}}</span>
                 <span class="obj_value">{{item.value?.charAt(0)?.toUpperCase()}}{{item.value?.slice(1)}} Unique</span>
                 <span class="obj_type">{{item.type}}</span>
-                <span class="obj_date">date</span>
-                <span class="tooltiptext">{{item.properties}}</span>
+                <span *ngIf="item.dateOwned != null" class="obj_date">date</span>
+                
+                <!-- Proprietes -->
+                <div class="tooltiptext">
+                    <h3>{{item.name}}</h3>
+                    
+                </div>
+
             </div>
         </div>  
 </div>

@@ -7,6 +7,7 @@ export class UniqueItem {
     public item? : string;
     public image? : string;
     public properties? : string;
+    public dateOwned?: string;
 
     public constructor() {}
 }

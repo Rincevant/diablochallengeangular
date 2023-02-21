@@ -17,13 +17,26 @@ export class UniqueArmorListComponent implements OnInit  {
     this.http.get<UniqueItem[]>('assets/data/armors/uarmor_elite.json').subscribe(data => {
       this.listUniqueItems = data;
 
-      for (let index = 0; index < this.listUniqueItems.length; index++) {
-        console.log(this.listUniqueItems[index])        
-      }
+      data.forEach(item => {
+        this.listUniqueItems.push(item)
+      });
+
+      this.toolTipSetItem();
     });
   }
 
   obtain(value : string ){
 
+  }
+
+  toolTipSetItem() {
+    let docs = document.getElementsByClassName('tooltiptext');
+    console.log(docs)
+    document.addEventListener('DOMContentLoaded', () => {
+      const docs: HTMLCollectionOf<Element> = document.getElementsByClassName('tooltiptext');
+      const elementsArray = Array.from(docs);
+      console.log(elementsArray);
+    });
+    
   }
 }
