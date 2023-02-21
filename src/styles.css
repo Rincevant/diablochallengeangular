@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    background-image: url("../src/assets/images/site-bg-max.jpg");
+    background-size: auto;
+    background-repeat: repeat-y;
+    background-position: top;
+}
+
+@font-face {
+    font-family: DiabloLight;
+    src: url("../src/assets/fonts/DiabloLight.ttf");
+}
+
+@font-face {
+    font-family: Kodia;
+    src: url("../src/assets/fonts/kodia.ttf");
+}
+
+@font-face {
+    font-family: Formal;
+    src: url("../src/assets/fonts/formal436bt.ttf");
+}

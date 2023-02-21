@@ -1,0 +1,12 @@
+<h2>Login</h2>
+
+<form action="/login" method="POST">
+    <input type="text" name="loginid" id="loginid" placeholder="Username or email" required>
+    <input type="password" name="password" id="password" placeholder="Password" required>
+    
+    <button type="submit" class="login_submit"></button>
+
+    <div ngClass="isError ? 'errorMessage' : 'validMessage'">
+        {{message}}
+    </div>
+</form>

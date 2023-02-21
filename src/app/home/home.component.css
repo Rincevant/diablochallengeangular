@@ -1,0 +1,59 @@
+#section_content {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    margin: auto;
+}
+
+#left_section {
+    width: 50%;
+    display: flex;
+    justify-content: right;
+}
+
+#right_section {
+    margin-left: 30px;
+    width: 50%;
+}
+
+ #d2r {
+     width: 70%;
+ }
+
+ h2 {
+     font-family: Kodia;
+     color: #f0e7d8;
+     font-weight: 500;
+     margin: 0;
+ }
+
+ .bulletImg {
+     width: 30px;
+ }
+
+ ul {
+     list-style-type: none;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-evenly;
+     height: 80%;
+     margin: 0;
+     padding: 0;
+ }
+
+ li {
+     display: flex;
+     align-items: center;
+     font-family: Formal;
+     color: #847b6b;
+     font-weight: 500;
+     font-size: 1em;
+ }
+
+ span {
+    margin-left: 15px;
+    text-transform: uppercase;
+}
+
+
+

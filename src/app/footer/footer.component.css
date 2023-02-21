@@ -1,0 +1,38 @@
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background-color: rgba(211, 211, 211, 0.11);
+    color: #f0e7d8;
+    text-align: center;
+}
+
+.footer_content {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    font-family: DiabloLight;
+}
+
+span {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #f0e7d8;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #f0e7d8;
+}
+
+a:hover {
+    color: #fcd89b;
+    text-decoration: none;
+}

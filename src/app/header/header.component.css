@@ -1,0 +1,77 @@
+h1 {color: white; font-size: 4em;}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+#logo a {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {    
+    margin-top: 50px;
+    width: 70%;
+}
+
+#top_menu {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 55%;
+    margin-bottom: 40px;
+}
+
+#top_menu a {
+    display: flex;
+    justify-content: center;
+}
+
+.btnNav {
+    width: 25%;
+    position: relative;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.btnNav .img-top {
+    position: absolute;
+    display: none;    
+    z-index: 99;
+}
+
+.btnNav:hover .img-top {
+    display: flex;
+}
+
+.connectBtn {
+    width: 90%;
+}
+
+#login_menu {
+    position: absolute;
+    display: flex;
+    justify-content: right;
+    font-family: Kodia;
+    color: #f0e7d8;
+    width: 75%;
+    margin-top: 50px;
+    font-size: 1em;
+}
+
+a {
+    color: #f0e7d8;
+}
+
+a:visited {
+    color: #f0e7d8;
+}
+
+a {
+    text-decoration: none;
+    margin-left: 15px;
+    text-transform: uppercase;
+ }
