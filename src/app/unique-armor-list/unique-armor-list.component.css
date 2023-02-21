@@ -1,0 +1,163 @@
+#unique_content {    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 60%;
+    margin-bottom: 50px;
+}
+
+.objet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;    
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    background-color: rgb(21, 21, 27);
+    border-radius: 10px;
+    border: 1px solid transparent;
+    margin: 10px;  
+    cursor: pointer;  
+}
+
+.objetOwned {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;    
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    background-color: rgba(47, 47, 61, 0.822);
+    border-radius: 10px;
+    border : 1px solid rgb(179, 161, 107);
+    margin: 10px; 
+    cursor: pointer;
+}
+
+.objet:hover {
+    border : 1px solid rgb(179, 161, 107);
+    background-color: rgba(47, 47, 61, 0.822);
+}
+
+.obj_image {
+    display: block;
+    position: relative;
+    height: 128px;
+    width: 128px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.obj_name {
+    font-family: Kodia;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+    color: rgb(179, 161, 107);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.obj_type {
+    text-align: center;
+    font-family: Formal;
+    font-size: 1em;
+    font-weight: 400;
+    color: #f0e7d8;
+}
+
+.obj_value {
+    text-align: center;
+    font-family: Formal;
+    font-size: 0.7em;
+    font-weight: 400;
+    color: #696969;
+}
+
+.obj_date{
+    text-align: center;
+    font-family: Formal;
+    font-size: 0.9em;
+    font-weight: 400;
+    color: #f0e7d8;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.tooltip {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+  
+.tooltip .tooltiptext {
+    visibility: hidden;    
+    background-color: rgb(11, 11, 12);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 10px;
+    position: absolute;
+    z-index: 1;
+    border : 1px solid rgba(179, 161, 107, 0.767);
+}
+  
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.tooltiptext {
+    margin-bottom: 32em;
+}
+
+p {
+    font-family: Kodia;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+h3 {
+    font-family: Kodia;
+    color: rgb(179, 161, 107);
+}
+
+table {
+    font-family: Formal;
+    font-weight: 400;
+    color: #f0e7d8;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+table.striped>tbody>tr:nth-child(odd) {
+    background-color: rgba(75, 75, 75, 0.479) !important;
+}
+
+h2 {
+    font-family: Kodia;
+    font-size: 2em;
+    font-weight: 400;
+    color: #f0e7d8;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#btnSave {
+    display: none;
+    position: fixed;
+    right: 10%;
+    bottom: 10%;
+    height: 6%;
+    width: 6%;
+    background-image: url('../../assets/images/saveoff.jpg');
+    background-size: cover;
+    cursor: pointer;
+}
+
+#btnSave:hover {
+    background-image: url('../../assets/images/saveon.jpg');
+}

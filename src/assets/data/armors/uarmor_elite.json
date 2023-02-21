@@ -1,0 +1,72 @@
+[
+    {
+        "kind": "Armor",
+        "part": "Chests",
+        "value": "elite",
+        "name": "Ormus' Robes",
+        "type": "Dusk Shroud",
+        "properties": "Defense: 371-487 (varies)(Base Defense: 361-467)\nRequired Level: 75\nRequired Strength: 77\nDurability: 20\n+10-20 Defense (varies)\n+20% Faster Cast Rate\n+10-15% To Cold Skill Damage (varies)\n+10-15% To Fire Skill Damage (varies)\n+10-15% To Lightning Skill Damage (varies)\n+3 bonus to a random Sorceress skill (Sorceress Only)*\nRegenerate Mana 10-15% (varies)\n(Only Spawns In Patch 1.10 or later)",
+        "item": "Unique",
+        "image":"quilted_armor"
+    },
+    {
+        "kind": "Armor",
+        "part": "Chests",
+        "value": "elite",
+        "name": "The Gladiator's Bane",
+        "type": "Wire Fleece",
+        "properties": "Defense: 1255-1496 (varies)(Base Defense: 375-481)\nRequired Level: 85\nRequired Strength: 111\nDurability: 135\n+150-200% Enhanced Defense (varies)\n+50 Defense\nCannot Be Frozen\n30% Faster Hit Recovery\nPoison Length Reduced By 50%\nAttacker Takes Damage Of 20\nDamage Reduced By 15-20 (varies)\nMagic Damage Reduced By 15-20 (varies)\n(Only Spawns In Patch 1.09 or later)",
+        "item": "Unique",
+        "image":"studded_leather"
+    },
+    {
+        "kind": "Armor",
+        "part": "Chests",
+        "value": "elite",
+        "name": "Arkaine's Valor",
+        "type": "Balrog Skin",
+        "properties": "Defense: 1295-1450 (varies)(Base Defense: 410-517)\nRequired Level: 85\nRequired Strength: 165\nDurability: 30\n+150-180% Enhanced Defense (varies)\n+1-2 To All Skills* (varies)\n+ (0.5 Per Character Level) 0-49 To Vitality (Based On Character Level)\n30% Faster Hit Recovery\nDamage Reduced By 10-15 (varies)\n(Only Spawns In Patch 1.10 or later)",
+        "item": "Unique",
+        "image":"splint_mail"
+    },
+    {
+        "kind": "Armor",
+        "part": "Chests",
+        "value": "elite",
+        "name": "Leviathan",
+        "type": "Kraken Shell",
+        "properties": "Defense: 1514-1722 (varies)(Base Defense: 417-523)\nRequired Level: 65\nRequired Strength: 174\n+170-200% Enhanced Defense (varies)\n+100-150 Defense (varies)\n+40-50 To Strength (varies)\nDamage Reduced By 15-25% (varies)\nIndestructible\n(Ladder Only)\n(Only Spawns In Patch 1.10 or later)",
+        "item": "Unique",
+        "image":"field_plate"
+    },
+    {
+        "kind": "Armor",
+        "part": "Chests",
+        "value": "elite",
+        "name": "Steel Carapace",
+        "type": "Shadow Plate",
+        "properties": "Defense: 1618-1785 (varies)(Base Defense: 446-557)\nRequired Level: 66\nRequired Strength: 230\nDurability: 70\n+190-220% Enhanced Defense (varies)\nRegenerate Mana 10-15% (varies)\n+20% Faster Hit Recovery\nCold Resist +40-60% (varies)\nDamage Reduced by 9-14 (varies)\nRepairs 1 Durability in 20 Seconds\n8% Chance To Cast Level 6 Iron Maiden When Struck\n(Only Spawns In Patch 1.10 or later)",
+        "item": "Unique",
+        "image":"full_plate_mail"
+    },
+    {
+        "kind": "Armor",
+        "part": "Chests",
+        "value": "elite",
+        "name": "Templar's Might",
+        "type": "Sacred Armor",
+        "properties": "Defense: 1622-1923 (varies)(Base Defense: 487-600)\nRequired Level: 74\nRequired Strength: 232\nDurability: 60\n+170-220% Enhanced Defense (varies)\n+250-300 Defense vs. Missile (varies)\n+10-15 To Strength (varies)\n+10-15 To Vitality (varies)\n+20% Faster Hit Recovery\n+40-50 Maximum Stamina (varies)\n+1-2 To Offensive Auras (Paladin Only) (varies)\n(Only Spawns In Patch 1.10 or later)",
+        "item": "Unique",
+        "image":"victors_silk"
+    },
+    {
+        "kind": "Armor",
+        "part": "Chests",
+        "value": "elite",
+        "name": "Tyrael's Might",
+        "type": "Sacred Armor",
+        "properties": "Defense: 1322-1502 (varies)(Base Defense: 487-600)\nRequired Level: 84\nRequired Strength: None\n+120-150% Enhanced Defense (varies)\n+50-100% Damage To Demons (varies)\n+20% Faster Run/Walk\n+20-30 To Strength (varies)\nAll Resistances +20-30 (varies)\nCannot Be Frozen\nRequirements -100%\nSlain Monsters Rest in Peace\nIndestructible\n(Ladder Only)\n(Only Spawns In Patch 1.10 or later)",
+        "item": "Unique",
+        "image":"victors_silk"
+    }
+]

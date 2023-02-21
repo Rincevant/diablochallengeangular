@@ -1,0 +1,30 @@
+ul {
+    margin-top: 0;
+    display: flex;
+    list-style: none;
+    margin: auto;
+}
+
+li {
+    font-family: Formal;
+    color: #fcd89b;
+    text-decoration: none;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+li:hover {
+    color: #f3b954;
+    cursor: pointer;
+}
+
+#menu_holy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+}

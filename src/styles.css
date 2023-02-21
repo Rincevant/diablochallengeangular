@@ -20,3 +20,8 @@ body {
     font-family: Formal;
     src: url("../src/assets/fonts/formal436bt.ttf");
 }
+
+@font-face {
+    font-family: Iris;
+    src: url("../src/assets/fonts/irisl.ttf");
+}
