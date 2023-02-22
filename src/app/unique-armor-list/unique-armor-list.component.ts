@@ -32,7 +32,6 @@ export class UniqueArmorListComponent implements OnInit  {
               });      
             });
         });
-
     });    
   }
 
@@ -50,15 +49,61 @@ export class UniqueArmorListComponent implements OnInit  {
   }
 
 
+  /*************** TRADUCTION *****************/
   traductionFrancais(propertiesList : string[] | undefined) {
       let propertiesListTranslate : string[] = []
 
-      propertiesList?.forEach(element => {
-        element = "test"
-        propertiesListTranslate.push(element)
+      propertiesList?.forEach(propriete => {
+        propertiesListTranslate.push(this.toSomething(propriete))
       });
 
       return propertiesListTranslate
+  }
+
+  toSomething(propriete : string) : string {
+    let newPropertie = propriete.toLowerCase();
+
+    if (newPropertie.includes("required level")) {
+      return "Niveau requis" + newPropertie.split("required level")[1]
+    } 
+
+    // FORCE
+    if (newPropertie.includes("to strength")) {
+      return newPropertie.split("to strength")[0] + "à la force"
+    }
+    
+    // ENERGY
+    if (newPropertie.includes("to energy")) {
+      return newPropertie.split("to energy")[0] + "à l'énergie"
+    }
+
+    // DEXTERITY
+    if (newPropertie.includes("to dexterity")) {
+      return newPropertie.split("to dexterity")[0] + "à la dextérité"
+    }
+
+    // VITALITY
+    if (newPropertie.includes("to vitality")) {
+      return newPropertie.split("to vitality")[0] + "à la vitalité"
+    }
+
+    // LIFE
+    if (newPropertie.includes("to life")) {
+      return newPropertie.split("to life")[0] + "aux points de vies"
+    }
+
+    // MANA
+    if (newPropertie.includes("to mana")) {
+      return newPropertie.split("to mana")[0] + "au mana"
+    }
+
+    if (newPropertie.includes("max stamina")) {
+      return newPropertie.split("max stamina")[0] + "à l'endurance max"
+    }
+
+
+
+    return "NULL"
   }
   
 }
