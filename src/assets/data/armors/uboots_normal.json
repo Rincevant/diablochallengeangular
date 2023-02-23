@@ -5,7 +5,7 @@
         "value": "normal",
         "name": "Hotspur",
         "type": "Boots",
-        "properties": "Defense: 10 (Base Defense: 2-3)\nRequired Level: 5\nDurability: 12\nAssassin Kick Damage: 3-8\n+10-20% Enhanced Defense (varies)\n+6 Defense\nFire Resist +45%\n15% To Max Fire Resist\nAdds 3-6 Fire Damage\n+15 To Life\n(Only Spawns In Patch 1.09 or later)",
+        "properties": "Defense: 10 (Base Defense: 2-3)\nRequired Level: 5\nDurability: 12\nAssassin Kick Damage: 3-8\n+10-20% Enhanced Defense (varies)\n+6 Defense\nFire Resist +45%\n15% To Maximum Fire Resist\nAdds 3-6 Fire Damage\n+15 To Life\n(Only Spawns In Patch 1.09 or later)",
         "item": "Unique",
         "image":"leather_boots"
     },

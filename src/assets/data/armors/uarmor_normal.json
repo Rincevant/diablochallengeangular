@@ -15,7 +15,7 @@
         "value": "normal",
         "name": "Blinkbat's Form",
         "type": "Leather Armor",
-        "properties": "Defense: 39-42 (varies)(Base Defense: 14-17)\nRequired Level: 12\nRequired Strength: 15\nDurability: 24\n+25 Defense\n+50 Defense VS. Missile*\n10% Faster Run/Walk*\n40% Faster Hit Recovery\nAdds 3-6 Fire Damage\n(Only Spawns In Patch 1.09 or later)",
+        "properties": "Defense: 39-42 (varies)(Base Defense: 14-17)\nRequired Level: 12\nRequired Strength: 15\nDurability: 24\n+25 Defense\n+50 Defense VS. Missile*\n10% Faster Run/Walk*\n+40% Faster Hit Recovery\nAdds 3-6 Fire Damage\n(Only Spawns In Patch 1.09 or later)",
         "item": "Unique",
         "image":"leather_armor"
     },
@@ -35,7 +35,7 @@
         "value": "normal",
         "name": "Twitchthroe",
         "type": "Studded Leather",
-        "properties": "Defense: 57-60 (varies)(Base Defense: 32-35)\nRequired Level: 16\nRequired Strength: 27\nDurability: 32\n+25 Defense\n25% Increase chance of blocking*\n20% Faster Hit Recovery\n20% Increased Attack Speed\n+10 To Dexterity\n+10 To Strength\n(Only Spawns In Patch 1.09 or later)",
+        "properties": "Defense: 57-60 (varies)(Base Defense: 32-35)\nRequired Level: 16\nRequired Strength: 27\nDurability: 32\n+25 Defense\n25% Increase chance of blocking*\n+20% Faster Hit Recovery\n20% Increased Attack Speed\n+10 To Dexterity\n+10 To Strength\n(Only Spawns In Patch 1.09 or later)",
         "item": "Unique",
         "image":"studded_leather"
     },
@@ -45,7 +45,7 @@
         "value": "normal",
         "name": "Darkglow",
         "type": "Ring Mail",
-        "properties": "Defense: 83-98 (varies)(Base Defense: 45-48)\nRequired Level: 14\nRequired Strength: 36\nDurability: 26\n+70-100% Enhanced Defense (varies)\n5% To Max Poison Resist\n5% To Max Cold Resist\n5% To Max Lightning Resist\n5% To Max Fire Resist\n+50 Defense vs. Melee\n+20 To Attack Rating\nAll Resistances +10\n+3 To Light Radius\n(Only Spawns In Patch 1.09 or later)",
+        "properties": "Defense: 83-98 (varies)(Base Defense: 45-48)\nRequired Level: 14\nRequired Strength: 36\nDurability: 26\n+70-100% Enhanced Defense (varies)\n5% To Maximum Poison Resist\n5% To Maximum Cold Resist\n5% To Maximum Lightning Resist\n5% To Maximum Fire Resist\n+50 Defense vs. Melee\n+20 To Attack Rating\nAll Resistances +10\n+3 To Light Radius\n(Only Spawns In Patch 1.09 or later)",
         "item": "Unique",
         "image":"ring_mail"
     },
@@ -55,7 +55,7 @@
         "value": "normal",
         "name": "Hawkmail",
         "type": "Scale Mail",
-        "properties": "Defense: 109-122 (varies)(Base Defense: 57-60)\nRequired Level: 15\nRequired Strength: 44\nDurability: 36\n+80-100% Enhanced Defense (varies)\n10% Faster Run/Walk\n15% To Max Cold Resist\nCold Resist +15%\nCannot Be Frozen\n(Only Spawns In Patch 1.09 or later)",
+        "properties": "Defense: 109-122 (varies)(Base Defense: 57-60)\nRequired Level: 15\nRequired Strength: 44\nDurability: 36\n+80-100% Enhanced Defense (varies)\n10% Faster Run/Walk\n15% To Maximum Cold Resist\nCold Resist +15%\nCannot Be Frozen\n(Only Spawns In Patch 1.09 or later)",
         "item": "Unique",
         "image":"scale_mail"
     },
@@ -65,7 +65,7 @@
         "value": "normal",
         "name": "Venom Ward",
         "type": "Breast Plate",
-        "properties": "Defense: 110-138 (varies)(Base Defense: 65-68)\nRequired Level: 20\nRequired Strength: 30\nDurability: 50\n+60-100% Enhanced Defense (varies)\n+2 To Light Radius\n15% To Max Poison Resist\nPoison Resist +90%\nPoison Length Reduced By 50%\n(Only Spawns In Patch 1.09 or later)",
+        "properties": "Defense: 110-138 (varies)(Base Defense: 65-68)\nRequired Level: 20\nRequired Strength: 30\nDurability: 50\n+60-100% Enhanced Defense (varies)\n+2 To Light Radius\n15% To Maximum Poison Resist\nPoison Resist +90%\nPoison Length Reduced By 50%\n(Only Spawns In Patch 1.09 or later)",
         "item": "Unique",
         "image":"breast_plate"
     },

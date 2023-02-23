@@ -45,7 +45,7 @@
         "value": "exceptional",
         "name": "Lance Guard",
         "type": "Barbed Shield",
-        "properties": "Defense: 134-173 (varies)(Base Defense: 58-78)\nRequired Level: 35\nRequired Strength: 65\nChance to Block: Pal: 47%, Ama/Asn/Bar: 42%, Dru/Nec/Sor: 37%\nDurability: 55\nPaladin Smite Damage: 18 To 35\n+70-120% Enhanced Defense (varies)\n15% Damage Taken Goes To Mana\n30% Faster Hit Recovery\n20% Deadly Strike\n+50 To Life\nAttacker Takes Damage of 47\n(Only Spawns In Patch 1.09 or later)",
+        "properties": "Defense: 134-173 (varies)(Base Defense: 58-78)\nRequired Level: 35\nRequired Strength: 65\nChance to Block: Pal: 47%, Ama/Asn/Bar: 42%, Dru/Nec/Sor: 37%\nDurability: 55\nPaladin Smite Damage: 18 To 35\n+70-120% Enhanced Defense (varies)\n15% Damage Taken Goes To Mana\n+30% Faster Hit Recovery\n20% Deadly Strike\n+50 To Life\nAttacker Takes Damage of 47\n(Only Spawns In Patch 1.09 or later)",
         "item": "Unique",
         "image":"lance_guard"
     },

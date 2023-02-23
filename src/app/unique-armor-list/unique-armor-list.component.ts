@@ -14,7 +14,7 @@ export class UniqueArmorListComponent implements OnInit  {
 
   listUniqueItems : UniqueItem[] = []
 
-  traductionFr = false
+  traductionFr = true
   
   constructor(private http: HttpClient) { }
   
@@ -63,9 +63,34 @@ export class UniqueArmorListComponent implements OnInit  {
   translateProperties(propriete : string) : string {
     let newPropertie = propriete.toLowerCase();
 
+    // FROZEN
+    if (newPropertie.includes("cannot be frozen")) {
+      return "Ne peut pas être immobilisé"
+    }
+
+    // ATTACKER TAKE DOMMAGE
+    if (newPropertie.includes("attacker takes damage of")) {
+      return "l'adversaire subit des dégâts de " + newPropertie.split("attacker takes damage of")[1]
+    }
+
+    // HIT RECOVERY
+    if (newPropertie.includes("faster hit recovery")) {
+      return "récupération très rapide après un coup " + newPropertie.split("faster hit recovery")[0]
+    }
+
+    // PATCH
+    if (newPropertie.includes("only spawns in patch")) {
+      return "(Disponible uniquement dans le patch 1.10 ou plus récent)"
+    }
+
     // REQUIRED
     if (newPropertie.includes("required")) {
       return this.requiredTranslate(newPropertie);
+    }
+
+    // CLASS
+    if (newPropertie.includes("amazon") || newPropertie.includes("barbarian") || newPropertie.includes("paladin") || newPropertie.includes("necromancer") || newPropertie.includes("sorceress") || newPropertie.includes("assassin") || newPropertie.includes("druid")) {
+      return this.classPropertiesTranslate(newPropertie);
     }
 
     // DURABILITY
@@ -93,6 +118,16 @@ export class UniqueArmorListComponent implements OnInit  {
       return newPropertie.split("faster run/walk")[0] + "à la marche/course"
     }
 
+    // FASTER CAST RATE
+    if (newPropertie.includes("faster cast rate")) {
+      return "vitesse de sort très rapide " + newPropertie.split("faster cast rate")[0]
+    }
+
+    // REGENERATE MANA
+    if (newPropertie.includes("regenerate mana")) {
+      return newPropertie.split("regenerate mana")[1] + " à la régénération du mana" 
+    }
+
     // RESIST
     if (newPropertie.includes("resist")) {
       return this.resistancesTranslate(newPropertie)
@@ -102,6 +137,23 @@ export class UniqueArmorListComponent implements OnInit  {
   }
 
   toSomethingTranslate(newPropertie : string) : string {
+    // RESIST MAX
+    if (newPropertie.includes("to maximum poison resist")) {
+      return newPropertie.split("to maximum poison resist")[0] + "aux max. de résistance au poison"
+    }
+
+    if (newPropertie.includes("to maximum fire resist")) {
+      return newPropertie.split("to maximum fire resist")[0] + "aux max. de résistance au feu"
+    }
+
+    if (newPropertie.includes("to maximum cold resist")) {
+      return newPropertie.split("to maximum cold resist")[0] + "aux max. de résistance au froid"
+    }
+
+    if (newPropertie.includes("to maximum lightning resist")) {
+      return newPropertie.split("to maximum lightning resist")[0] + "aux max. de résistance à la foudre"
+    }
+
     // FORCE
     if (newPropertie.includes("to strength")) {
       return newPropertie.split("to strength")[0] + "à la force"
@@ -132,27 +184,25 @@ export class UniqueArmorListComponent implements OnInit  {
       return newPropertie.split("to mana")[0] + "au mana"
     }
 
-    return "NULL"
+    // COLD SKILL DAMAGE
+    if (newPropertie.includes("to cold skill damage")) {      
+      return newPropertie.split("to cold skill damage")[0] + "aux dégâts des compétences de froid"
+    }
+
+    // FIRE SKILL DAMAGE
+    if (newPropertie.includes("to fire skill damage")) {      
+      return newPropertie.split("to fire skill damage")[0] + "aux dégâts des compétences de feu"
+    }
+    
+    // LIGHTNING SKILL DAMAGE
+    if (newPropertie.includes("to lightning skill damage")) {      
+      return newPropertie.split("to lightning skill damage")[0] + "aux dégâts des compétences de foudre"
+    }
+
+    return "TO PROPERTIE NULL"
   }
 
   resistancesTranslate(newPropertie : string) : string {
-      // RESIST MAX
-      if (newPropertie.includes("to max poison resist")) {
-        return newPropertie.split("to max poison resist")[0] + "à la résistance max. au poison"
-      }
-
-      if (newPropertie.includes("to max fire resist")) {
-        return newPropertie.split("to max fire resist")[0] + "à la résistance max. au feu"
-      }
-
-      if (newPropertie.includes("to max cold resist")) {
-        return newPropertie.split("to max cold resist")[0] + "à la résistance max. au froid"
-      }
-
-      if (newPropertie.includes("to max lightning resist")) {
-        return newPropertie.split("to max lightning resist")[0] + "à la résistance max. à la foudre"
-      }
-
       // RESIST GLOBAL
       if (newPropertie.includes("poison resist")) {
         return "résistance au poison " + newPropertie.split("poison resist")[1]
@@ -170,7 +220,7 @@ export class UniqueArmorListComponent implements OnInit  {
         return "résistance à la foudre " + newPropertie.split("lightning resist")[1]
       }
 
-      return "NULL"
+      return "RESIST NULL"
   }
 
   defenseTranslate(newPropertie : string) : string {
@@ -193,7 +243,7 @@ export class UniqueArmorListComponent implements OnInit  {
       return newPropertie.split("defense")[0] + "à la défense"
     }
 
-    return "NULL"
+    return "DEFENSE NULL"
   }
 
   requiredTranslate(newPropertie : string) : string {
@@ -212,7 +262,17 @@ export class UniqueArmorListComponent implements OnInit  {
       return "dextérité nécessaire " + newPropertie.split("required dexterity")[1]
     }
 
-    return "NULL"
+    return "REQUIRED NULL"
+  }
+
+  classPropertiesTranslate(newPropertie : string) : string {
+
+    // SORCERESS
+    if (newPropertie.includes("bonus to a random sorceress skill")) {
+      return newPropertie.split("bonus to a random sorceress skill")[0] + "à l'une des compétences de la sorcière (aléatoire)"
+    }
+
+    return "SKILL NULL"
   }
   
 }

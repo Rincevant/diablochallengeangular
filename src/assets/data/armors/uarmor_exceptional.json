@@ -45,7 +45,7 @@
         "value": "exceptional",
         "name": "Crow Caw",
         "type": "Tigulated Mail",
-        "properties": "Defense: 477-534 (varies)(Base Defense: 176-190)\nRequired Level: 37\nRequired Strength: 86\nDurability: 36\n+150-180% Enhanced Defense (varies)\n15% Increased Attack Speed\n15% Faster Hit Recovery\n35% Chance of Open Wounds\n+15 Dexterity\n(Only Spawns In Patch 1.09 or later)",
+        "properties": "Defense: 477-534 (varies)(Base Defense: 176-190)\nRequired Level: 37\nRequired Strength: 86\nDurability: 36\n+150-180% Enhanced Defense (varies)\n15% Increased Attack Speed\n+15% Faster Hit Recovery\n35% Chance of Open Wounds\n+15 Dexterity\n(Only Spawns In Patch 1.09 or later)",
         "item": "Unique",
         "image": "scale_mail"
     },
@@ -95,7 +95,7 @@
         "value": "exceptional",
         "name": "Que-Hegan's Wisdom",
         "type": "Mage Plate",
-        "properties": "Defense: 628-681 (varies)(Base Defense: 225-261)\nRequired Level: 51\nRequired Strength: 55\nDurability: 60\n+140-160% Enhanced Defense (varies)\n+1 To All Skill Levels\n+3 To Mana After Each Kill\n20% Faster Cast Rate\n20% Faster Hit Recovery\nMagic Damage Reduced By 6-10 (varies)\n+15 To Energy\n(Only Spawns In Patch 1.09 or later)",
+        "properties": "Defense: 628-681 (varies)(Base Defense: 225-261)\nRequired Level: 51\nRequired Strength: 55\nDurability: 60\n+140-160% Enhanced Defense (varies)\n+1 To All Skill Levels\n+3 To Mana After Each Kill\n20% Faster Cast Rate\n+20% Faster Hit Recovery\nMagic Damage Reduced By 6-10 (varies)\n+15 To Energy\n(Only Spawns In Patch 1.09 or later)",
         "item": "Unique",
         "image": "light_plate"
     },
@@ -125,7 +125,7 @@
         "value": "exceptional",
         "name": "Atma's Wail",
         "type": "Embossed Plate",
-        "properties": "Defense: (670-866) - (792-988) (varies)(Base Defense: 282-303)\nRequired Level: 51\nRequired Strength: 125\nDurability: 105\n+120-160% Enhanced Defense (varies)\n+ (2 Per Character Level) 2-198 Defense (Based On Character Level)\n30% Faster Hit Recovery\nReplenish Life +10\nIncrease Maximum Mana 15%\n+15 To Dexterity\n+20% Better Chance Of Getting Magic Items\n(Only Spawns In Patch 1.09 or later)",
+        "properties": "Defense: (670-866) - (792-988) (varies)(Base Defense: 282-303)\nRequired Level: 51\nRequired Strength: 125\nDurability: 105\n+120-160% Enhanced Defense (varies)\n+ (2 Per Character Level) 2-198 Defense (Based On Character Level)\n+30% Faster Hit Recovery\nReplenish Life +10\nIncrease Maximum Mana 15%\n+15 To Dexterity\n+20% Better Chance Of Getting Magic Items\n(Only Spawns In Patch 1.09 or later)",
         "item": "Unique",
         "image": "gothic_plate"
     },

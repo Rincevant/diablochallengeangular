@@ -25,7 +25,7 @@
         "value": "elite",
         "name": "Verdungo's Hearty Cord",
         "type": "Mithril Coil",
-        "properties": "Defense: 125-158 (varies)(Defense: 58-65)\nRequired Level: 63\nRequired Strength: 106\nDurability: 16\n16 Boxes\n+90-140% Enhanced Defense (varies)\n10% Faster Hit Recovery\n+30-40 To Vitality (varies)\nReplenish Life +10-13 (varies)\n+100-120 Maximum Stamina (varies)\nDamage Reduced By 10-15% (varies)\n(Only Spawns In Patch 1.10 or later)",
+        "properties": "Defense: 125-158 (varies)(Defense: 58-65)\nRequired Level: 63\nRequired Strength: 106\nDurability: 16\n16 Boxes\n+90-140% Enhanced Defense (varies)\n+10% Faster Hit Recovery\n+30-40 To Vitality (varies)\nReplenish Life +10-13 (varies)\n+100-120 Maximum Stamina (varies)\nDamage Reduced By 10-15% (varies)\n(Only Spawns In Patch 1.10 or later)",
         "item": "Unique",
         "image": "belt_m"
     }
