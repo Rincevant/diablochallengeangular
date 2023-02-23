@@ -14,11 +14,11 @@ export class UniqueArmorListComponent implements OnInit  {
 
   listUniqueItems : UniqueItem[] = []
 
-  traductionFr = true
+  traductionFr = false
   
   constructor(private http: HttpClient) { }
   
-  ngOnInit(): void {
+  ngOnInit(): void {    
     this.listType.forEach(type => {      
         this.listArmorName.forEach(armorName => {          
             this.http.get<UniqueItem[]>('assets/data/armors/u'+armorName+'_'+type+'.json').subscribe(data => {
@@ -34,7 +34,7 @@ export class UniqueArmorListComponent implements OnInit  {
         });
     });    
   }
-
+  
   /**
    * Retourne la couleur de la propriete
    * @param propertie La propriete de l'objet
@@ -54,19 +54,54 @@ export class UniqueArmorListComponent implements OnInit  {
       let propertiesListTranslate : string[] = []
 
       propertiesList?.forEach(propriete => {
-        propertiesListTranslate.push(this.toSomething(propriete))
+        propertiesListTranslate.push(this.translateProperties(propriete))
       });
 
       return propertiesListTranslate
   }
 
-  toSomething(propriete : string) : string {
+  translateProperties(propriete : string) : string {
     let newPropertie = propriete.toLowerCase();
 
-    if (newPropertie.includes("required level")) {
-      return "Niveau requis" + newPropertie.split("required level")[1]
-    } 
+    // REQUIRED
+    if (newPropertie.includes("required")) {
+      return this.requiredTranslate(newPropertie);
+    }
 
+    // DURABILITY
+    if (newPropertie.includes("durability")) {
+      return "résistance " + newPropertie.split("durability")[1]
+    }
+
+    // DEFENSE
+    if (newPropertie.includes("defense")) {
+      return this.defenseTranslate(newPropertie);
+    }
+
+    // TO SOMETHING
+    if (newPropertie.includes("to")) {
+      return this.toSomethingTranslate(newPropertie);
+    }
+
+    // MAX STAMINA
+    if (newPropertie.includes("max stamina")) {
+      return newPropertie.split("max stamina")[0] + "d'endurance maximale"
+    }
+
+    // FASTER RUN WALK
+    if (newPropertie.includes("faster run/walk")) {
+      return newPropertie.split("faster run/walk")[0] + "à la marche/course"
+    }
+
+    // RESIST
+    if (newPropertie.includes("resist")) {
+      return this.resistancesTranslate(newPropertie)
+    }
+
+    return "NULL"
+  }
+
+  toSomethingTranslate(newPropertie : string) : string {
     // FORCE
     if (newPropertie.includes("to strength")) {
       return newPropertie.split("to strength")[0] + "à la force"
@@ -97,11 +132,85 @@ export class UniqueArmorListComponent implements OnInit  {
       return newPropertie.split("to mana")[0] + "au mana"
     }
 
-    if (newPropertie.includes("max stamina")) {
-      return newPropertie.split("max stamina")[0] + "à l'endurance max"
+    return "NULL"
+  }
+
+  resistancesTranslate(newPropertie : string) : string {
+      // RESIST MAX
+      if (newPropertie.includes("to max poison resist")) {
+        return newPropertie.split("to max poison resist")[0] + "à la résistance max. au poison"
+      }
+
+      if (newPropertie.includes("to max fire resist")) {
+        return newPropertie.split("to max fire resist")[0] + "à la résistance max. au feu"
+      }
+
+      if (newPropertie.includes("to max cold resist")) {
+        return newPropertie.split("to max cold resist")[0] + "à la résistance max. au froid"
+      }
+
+      if (newPropertie.includes("to max lightning resist")) {
+        return newPropertie.split("to max lightning resist")[0] + "à la résistance max. à la foudre"
+      }
+
+      // RESIST GLOBAL
+      if (newPropertie.includes("poison resist")) {
+        return "résistance au poison " + newPropertie.split("poison resist")[1]
+      }
+
+      if (newPropertie.includes("fire resist")) {
+        return "résistance au feu " + newPropertie.split("fire resist")[1]
+      }
+
+      if (newPropertie.includes("cold resist")) {
+        return "résistance au froid " + newPropertie.split("cold resist")[1]
+      }
+
+      if (newPropertie.includes("lightning resist")) {
+        return "résistance à la foudre " + newPropertie.split("lightning resist")[1]
+      }
+
+      return "NULL"
+  }
+
+  defenseTranslate(newPropertie : string) : string {
+
+    // BASE DEFENSE
+    if (newPropertie.includes("defense:")) {
+      newPropertie = newPropertie.replace("defense", "défense")
+      newPropertie = newPropertie.replace("varies", "variation")
+      newPropertie = newPropertie.replace("base defense", "défense de base")
+      return newPropertie
     }
 
+    // BASE DEFENSE
+    if (newPropertie.includes("enhanced defense")) {
+      return "défense augmentée de " + newPropertie.split("enhanced defense")[0] 
+    }
 
+    // BASE DEFENSE
+    if (!newPropertie.includes("base") && !newPropertie.includes("enhanced")) {
+      return newPropertie.split("defense")[0] + "à la défense"
+    }
+
+    return "NULL"
+  }
+
+  requiredTranslate(newPropertie : string) : string {
+    // REQUIRED LEVEL
+    if (newPropertie.includes("required level")) {
+      return "niveau requis " + newPropertie.split("required level")[1]
+    } 
+
+    // REQUIRED STRENGTH
+    if (newPropertie.includes("required strength")) {
+      return "force nécessaire " + newPropertie.split("required strength")[1]
+    }
+
+    // REQUIRED DEXTERITY
+    if (newPropertie.includes("required dexterity")) {
+      return "dextérité nécessaire " + newPropertie.split("required dexterity")[1]
+    }
 
     return "NULL"
   }
