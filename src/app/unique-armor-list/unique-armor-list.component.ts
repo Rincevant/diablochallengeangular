@@ -43,9 +43,12 @@ export class UniqueArmorListComponent implements OnInit  {
   getColorPropertie(propertie : string) {
     if (propertie.includes(':')) {
       return "white";
+    } else if (propertie.includes('NULL')) {
+      return "empty";
     } else {
-      return "blue";
+      return "blue"
     }
+    return ""
   }
 
 
@@ -61,7 +64,31 @@ export class UniqueArmorListComponent implements OnInit  {
   }
 
   translateProperties(propriete : string) : string {
-    let newPropertie = propriete.toLowerCase();
+    let newPropertie = propriete.toLowerCase();    
+
+    // LADDER ONLY
+    if (newPropertie.includes("ladder only")) {
+      return newPropertie.replace("ladder only", "ladder seulement")
+    }
+
+    // INDESTRUCTIBLE
+    if (newPropertie.includes("indestructible")) {
+      return "indestructible"
+    }
+
+    // DAMAGE REDUCE
+    if (newPropertie.includes("damage reduced by")) {
+      newPropertie = newPropertie.replace("varies", "variation");
+      if (newPropertie.includes("magic")) {
+        return "dégâts magique réduits de " + newPropertie.split("magic damage reduced by")[1]
+      }
+      return "dégâts réduits de " + newPropertie.split("damage reduced by")[1]
+    }
+
+    // POISON LENGTH
+    if (newPropertie.includes("poison length reduced by")) {
+      return "durée du poison réduit de " + newPropertie.split("poison length reduced by")[1]
+    }
 
     // FROZEN
     if (newPropertie.includes("cannot be frozen")) {
@@ -84,7 +111,7 @@ export class UniqueArmorListComponent implements OnInit  {
     }
 
     // REQUIRED
-    if (newPropertie.includes("required")) {
+    if (newPropertie.includes("require")) {
       return this.requiredTranslate(newPropertie);
     }
 
@@ -95,6 +122,10 @@ export class UniqueArmorListComponent implements OnInit  {
 
     // DURABILITY
     if (newPropertie.includes("durability")) {
+      if (newPropertie.includes("repairs")) {
+        let parseRepair = newPropertie.split(" ");
+        return "répare " + parseRepair[1] + " de durabilité toutes les " + parseRepair[4] + " secondes"
+      }
       return "résistance " + newPropertie.split("durability")[1]
     }
 
@@ -113,6 +144,11 @@ export class UniqueArmorListComponent implements OnInit  {
       return newPropertie.split("max stamina")[0] + "d'endurance maximale"
     }
 
+    // MAXIMUM STAMINA
+    if (newPropertie.includes("maximum stamina")) {
+      return newPropertie.split("maximum stamina")[0] + "à l'endurance maximum"
+    }
+
     // FASTER RUN WALK
     if (newPropertie.includes("faster run/walk")) {
       return newPropertie.split("faster run/walk")[0] + "à la marche/course"
@@ -125,7 +161,9 @@ export class UniqueArmorListComponent implements OnInit  {
 
     // REGENERATE MANA
     if (newPropertie.includes("regenerate mana")) {
-      return newPropertie.split("regenerate mana")[1] + " à la régénération du mana" 
+      newPropertie = newPropertie.split("regenerate mana")[1] + " à la régénération du mana" 
+      newPropertie = newPropertie.replace("varies", "variation")
+      return newPropertie
     }
 
     // RESIST
@@ -133,10 +171,29 @@ export class UniqueArmorListComponent implements OnInit  {
       return this.resistancesTranslate(newPropertie)
     }
 
+    // POTION BOXES
+    if (newPropertie.includes("boxes")) {
+      return "taille de la ceinture +" + newPropertie.split("boxes")[0] + " emplacements"
+    }
+
+    if (newPropertie.includes("slain monster")) {
+      return "Slain Monster Rest in Peace (les monstres tués ne peuvent pas être ressuscités)"
+    }
+
     return "NULL"
   }
 
   toSomethingTranslate(newPropertie : string) : string {
+    // TO CAST
+    if (newPropertie.includes("to cast")) {
+      return this.toCast(newPropertie)
+    }
+
+    // ALL SKILL To All Skills
+    if (newPropertie.includes("to all skills")) {
+      return newPropertie.split("to all skills")[0] + "à toutes les compétences"
+    }
+
     // RESIST MAX
     if (newPropertie.includes("to maximum poison resist")) {
       return newPropertie.split("to maximum poison resist")[0] + "aux max. de résistance au poison"
@@ -171,6 +228,7 @@ export class UniqueArmorListComponent implements OnInit  {
 
     // VITALITY
     if (newPropertie.includes("to vitality")) {
+      newPropertie = newPropertie.replace("per character level", "par niv. du perso.")
       return newPropertie.split("to vitality")[0] + "à la vitalité"
     }
 
@@ -208,16 +266,25 @@ export class UniqueArmorListComponent implements OnInit  {
         return "résistance au poison " + newPropertie.split("poison resist")[1]
       }
 
+      // FIRE RESIST
       if (newPropertie.includes("fire resist")) {
         return "résistance au feu " + newPropertie.split("fire resist")[1]
       }
 
+      // COLD RESIST
       if (newPropertie.includes("cold resist")) {
         return "résistance au froid " + newPropertie.split("cold resist")[1]
       }
 
+      // RESIST LIGHTINING
       if (newPropertie.includes("lightning resist")) {
         return "résistance à la foudre " + newPropertie.split("lightning resist")[1]
+      }
+
+      // ALL RESISTANCE
+      if (newPropertie.includes("all resistances")) {
+        newPropertie = newPropertie.replace("varies", "variation")
+        return newPropertie.split("all resistances")[1] + " à toutes les résistances"
       }
 
       return "RESIST NULL"
@@ -262,17 +329,43 @@ export class UniqueArmorListComponent implements OnInit  {
       return "dextérité nécessaire " + newPropertie.split("required dexterity")[1]
     }
 
+    // REQUIREMENTS
+    if (newPropertie.includes("requirements")) {
+      return "conditions requises " + newPropertie.split("requirements")[1]
+    }
+
+
     return "REQUIRED NULL"
   }
 
   classPropertiesTranslate(newPropertie : string) : string {
 
-    // SORCERESS
-    if (newPropertie.includes("bonus to a random sorceress skill")) {
-      return newPropertie.split("bonus to a random sorceress skill")[0] + "à l'une des compétences de la sorcière (aléatoire)"
+    // SORCERESS SKILL
+    if (newPropertie.includes("sorceress")) {
+      if (newPropertie.includes("bonus to a random sorceress skill")) {
+        return newPropertie.split("bonus to a random sorceress skill")[0] + "à l'une des compétences de la sorcière (aléatoire)"
+      }
     }
+
+    // PALADIN
+    if (newPropertie.includes("paladin")) {
+      if (newPropertie.includes("to offensive auras")) {
+        return newPropertie.split("to offensive auras")[0] + " aux auras offensives (Paladin seulement)" 
+      }
+    }    
 
     return "SKILL NULL"
   }
+
+  toCast(newPropertie : string) : string {
+    // TO CAST
+    let parseToCast = newPropertie.split(" ")
+
+    if (newPropertie.includes("iron maiden")) {
+      return parseToCast[0] + " de chances de lancer Dame de fer - niv. " + parseToCast[5] + " en étant touché"  
+    }
+
+    return "TO CAST NULL"
+  } 
   
 }
