@@ -184,6 +184,11 @@ export class UniqueArmorListComponent implements OnInit  {
   }
 
   toSomethingTranslate(newPropertie : string) : string {
+    // TO DEMONS
+    if (newPropertie.includes("damage to demons")) {
+      return newPropertie.split("damage to demons")[0] + "de dégâts contre les démons"
+    }
+
     // TO CAST
     if (newPropertie.includes("to cast")) {
       return this.toCast(newPropertie)
