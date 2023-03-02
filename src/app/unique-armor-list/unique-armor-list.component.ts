@@ -64,7 +64,39 @@ export class UniqueArmorListComponent implements OnInit  {
   }
 
   translateProperties(propriete : string) : string {
-    let newPropertie = propriete.toLowerCase();    
+    let newPropertie = propriete.toLowerCase();
+    newPropertie = newPropertie.replace("varies", "variation")
+
+    // REPLENISH LIFE
+    if (newPropertie.includes("replenish life")) {
+      newPropertie = newPropertie.replace("varies", "variation")
+      return newPropertie.split("replenish life")[1] + " à la régénération de la vie"
+    }
+
+    // ATTACK SPEED
+    if (newPropertie.includes("increased attack speed")) {
+      return newPropertie.split("increased attack speed")[0] + "en vitesse d'attaque"
+    }
+
+    // LIFE STOLEN    
+    if (newPropertie.includes("life stolen per hit")) {
+      return newPropertie.split("life stolen per hit")[0] + "de vie volée par coup"
+    }
+
+    // CHARGES
+    if (newPropertie.includes("level") && newPropertie.includes("charges")) {
+      return this.charges(newPropertie)
+    }
+    
+    // INCREASES MAX MANA
+    if (newPropertie.includes("increases maximum mana ")) {
+      return "+" + newPropertie.split("increases maximum mana ")[1] + " au maximum de mana"
+    }
+
+    // SLOW TARGET
+    if (newPropertie.includes("slows target by")) {
+      return "ralenti la cible de " + newPropertie.split("slows target by")[1]
+    }
 
     // LADDER ONLY
     if (newPropertie.includes("ladder only")) {
@@ -183,7 +215,12 @@ export class UniqueArmorListComponent implements OnInit  {
     return "NULL"
   }
 
-  toSomethingTranslate(newPropertie : string) : string {
+  toSomethingTranslate(newPropertie : string) : string { 
+    // TO LIGHT RADIUS
+    if (newPropertie.includes("to light radius")) {
+      return newPropertie.split("to light radius")[0] + "à la portée lumineuse"
+    }
+
     // TO DEMONS
     if (newPropertie.includes("damage to demons")) {
       return newPropertie.split("damage to demons")[0] + "de dégâts contre les démons"
@@ -315,6 +352,11 @@ export class UniqueArmorListComponent implements OnInit  {
       return newPropertie.split("defense")[0] + "à la défense"
     }
 
+    // PER CHARACTER LEVEL
+    if (newPropertie.includes("per character level")) {
+      return "+" + newPropertie.split(" ")[5] + " à la défense (selon niv. du perso.)"
+    }
+
     return "DEFENSE NULL"
   }
 
@@ -372,5 +414,17 @@ export class UniqueArmorListComponent implements OnInit  {
 
     return "TO CAST NULL"
   } 
+
+  charges(newPropertie : string) : string {
+
+    // VENOM
+    if (newPropertie.includes("venom")) {
+      let level = newPropertie.split(" ")[1]
+      let chargesValue = newPropertie.split(" ")[3].split("(")[1]
+      return chargesValue + " charges du sort Venin de niveau " + level
+    }
+
+    return "CHARGES NULL"
+  }
   
 }
