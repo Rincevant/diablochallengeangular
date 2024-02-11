@@ -66,6 +66,37 @@ export class UniqueArmorListComponent implements OnInit  {
   translateProperties(propriete : string) : string {
     let newPropertie = propriete.toLowerCase();
     newPropertie = newPropertie.replace("varies", "variation")
+    newPropertie = newPropertie.replace("per character level", "par niv. du perso.")
+
+    // SPAWNS IN ANY PATCH
+    if (newPropertie.includes("spawns in any patch")) {
+      return newPropertie.replace("spawns in any patch", "disponible dans tous les patch")
+    }
+
+    // EXTRA GOLD
+    if (newPropertie.includes("extra gold from monsters")) {
+      return newPropertie.split("extra gold from monsters")[0] + "d'or récupéré sur les monstres"
+    }
+
+    // MAGIC FIND
+    if (newPropertie.includes("better chance of getting magic items")) {
+      return newPropertie.split("better chance of getting magic items")[0] + "de chance de trouver un objet magique"
+    }
+
+    // STAMINA DRAIN
+    if (newPropertie.includes("slower stamina drain")) {
+      return "l'endurance diminue plus lentement de " + newPropertie.split("slower stamina drain")[0]
+    }
+
+    // OPEN WOUNDS
+    if (newPropertie.includes("chance of open wounds")) {
+      return newPropertie.split("chance of open wounds")[0] + "de chance de faire des blessures ouvertes"
+    }
+
+    // LIFE AFTER EACH DEATH
+    if (newPropertie.includes("life after each kill")) {
+      return newPropertie.split("life after each kill")[0] + "en vie après chaque monstre tué"
+    }
 
     // REPLENISH LIFE
     if (newPropertie.includes("replenish life")) {
@@ -232,8 +263,11 @@ export class UniqueArmorListComponent implements OnInit  {
     }
 
     // ALL SKILL To All Skills
-    if (newPropertie.includes("to all skills")) {
-      return newPropertie.split("to all skills")[0] + "à toutes les compétences"
+    if (newPropertie.includes("to all skill")) {
+      if (newPropertie.includes("skills"))
+        return newPropertie.split("to all skills")[0] + "à toutes les compétences"
+      else 
+        return newPropertie.split("to all skill")[0] + "à toutes les compétences"
     }
 
     // RESIST MAX
@@ -399,7 +433,15 @@ export class UniqueArmorListComponent implements OnInit  {
       if (newPropertie.includes("to offensive auras")) {
         return newPropertie.split("to offensive auras")[0] + " aux auras offensives (Paladin seulement)" 
       }
-    }    
+    } 
+    
+    // ASSASSIN
+    if (newPropertie.includes("assassin")) {
+      if (newPropertie.includes("assassin kick damage")) {
+        return "Dégâts Kick de l'assassin " + newPropertie.split("assassin kick damage")[1] 
+      }
+    }
+
 
     return "SKILL NULL"
   }
@@ -410,6 +452,10 @@ export class UniqueArmorListComponent implements OnInit  {
 
     if (newPropertie.includes("iron maiden")) {
       return parseToCast[0] + " de chances de lancer Dame de fer - niv. " + parseToCast[5] + " en étant touché"  
+    }
+
+    if (newPropertie.includes("life tap")) {
+      return parseToCast[0] + " de chances de lancer un sort Balance de vie de niv. " + parseToCast[5] + " en frappant"  
     }
 
     return "TO CAST NULL"
