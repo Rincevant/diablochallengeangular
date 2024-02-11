@@ -14,7 +14,7 @@ export class UniqueArmorListComponent implements OnInit  {
 
   listUniqueItems : UniqueItem[] = []
 
-  traductionFr = true
+  traductionFr = false
   
   constructor(private http: HttpClient) { }
   
@@ -212,7 +212,7 @@ export class UniqueArmorListComponent implements OnInit  {
       return "Slain Monster Rest in Peace (les monstres tués ne peuvent pas être ressuscités)"
     }
 
-    return "NULL"
+    return newPropertie
   }
 
   toSomethingTranslate(newPropertie : string) : string { 
